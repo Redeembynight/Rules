@@ -25,6 +25,12 @@
 
 #########以下可在US商店使用
 
+#Varlens解锁PRO(ios黑科技)（需登录）
+
+#医考帮(公众号：墨鱼手记）（需登录）
+
+#Python Ai解锁会员 (ios黑科技)
+
 #Charger Master-充电助手（20201206）
 
 #Co Sleep-小睡眠（by 黑黑酱）
