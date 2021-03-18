@@ -1,18 +1,21 @@
 /*
-微信公众号：ios黑科技
-官方网站：s7aa.cn
+公众号少年歌行pro整理
+
+感谢原作者：iOS黑科技
+作者微信公众号：ios黑科技
+作者官方网站：s7aa.cn
 
 圈X:
 
 [rewrite_local]
 
 #酷咪视频VIP无限看
-^https:\/\/myiconisme\.com(\/\/api\/movie\/addPlay|\/\/api\/member|\/api\/video_clip\/play|\/api\/app\/message_list) url script-response-body kumiyw.js
+^https:\/\/(.+)\.com(\/\/api\/movie\/addPlay|\/\/api\/member|\/api\/video_clip\/play|\/api\/app\/message_list|\/api\/home\/index_recommend|\/\/api\/movie\/play\/) url script-response-body https://raw.githubusercontent.com/sngxpro/QuantumultX/master/s7aa.cn/kumi.js
 
 酷咪下载地址
 km.app
 
-MITM = myiconisme.com
+MITM = *.com
 */
 
 
@@ -25,6 +28,8 @@ const p2 = '//api/movie/addPlay';
 const p3 = '//api/member';
 const p4 = '/api/video_clip/play';
 const p5 = '/api/app/message_list';
+const p6 = '/api/home/index_recommend';
+
 
 if (url.indexOf(p2) != -1) {
     obj.data.re_today_view_times = 999;
@@ -44,5 +49,10 @@ if (url.indexOf(p4) != -1) {
 if (url.indexOf(p5) != -1) {
     obj.code = 1;
     body = JSON.stringify(obj);
+} 
+if (url.indexOf(p6) != -1) {
+    obj.data.list.ob_game_list = 1;
+
+
 } 
 $done({body});
