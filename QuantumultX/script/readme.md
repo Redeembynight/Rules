@@ -159,6 +159,8 @@
 
 #Color Collect 色采
 
+#Avatarify 破解会员功能（20210228）(公众号：墨鱼手记）
+
 #小小影视 photonmang 
 
 #扫描全能王CamScanner
