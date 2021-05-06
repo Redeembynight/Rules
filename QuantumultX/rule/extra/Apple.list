@@ -1,125 +1,125 @@
-#整合所有Apple服务
-
-# Apple
-DOMAIN-SUFFIX,aaplimg.com,Apple
-DOMAIN-SUFFIX,apple.co,Apple
-DOMAIN-SUFFIX,apple.com,Apple
-DOMAIN-SUFFIX,apple.com.cn,Apple
-DOMAIN-SUFFIX,apple-cloudkit.com,Apple
-DOMAIN-SUFFIX,appstore.com,Apple
-DOMAIN-SUFFIX,cdn-apple.com,Apple
-DOMAIN-SUFFIX,icloud.com,Apple
-DOMAIN-SUFFIX,icloud.com.cn,Apple
-DOMAIN-SUFFIX,icloud-content.com,Apple
-DOMAIN-SUFFIX,me.com,Apple
-DOMAIN-SUFFIX,mzstatic.com,Apple
-DOMAIN-KEYWORD,apple.com.akadns.net,Apple
-DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
-IP-CIDR,17.0.0.0/8,Apple
-IP-CIDR,63.92.224.0/19,Apple
-IP-CIDR,65.199.22.0/23,Apple
+# NAME: Apple
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2021-04-17 00:14:27
+# HOST: 2
+# HOST-SUFFIX: 74
+# HOST-KEYWORD: 6
+# USER-AGENT: 23
+# IP-CIDR: 10
+# TOTAL: 115
+HOST,api.smoot.apple.cn,Apple
+HOST,apple.comscoreresearch.com,Apple
+HOST-SUFFIX,aaplimg.com,Apple
+HOST-SUFFIX,akadns.net,Apple
+HOST-SUFFIX,apple-cloudkit.com,Apple
+HOST-SUFFIX,apple-dns.net,Apple
+HOST-SUFFIX,apple-icloud.cn,Apple
+HOST-SUFFIX,apple-livephotoskit.com,Apple
+HOST-SUFFIX,apple-mapkit.com,Apple
+HOST-SUFFIX,apple.co,Apple
+HOST-SUFFIX,apple.com,Apple
+HOST-SUFFIX,apple.com.cdn20.com,Apple
+HOST-SUFFIX,apple.com.cn,Apple
+HOST-SUFFIX,apple.com.mwcloudcdn.com,Apple
+HOST-SUFFIX,apple.com.mwcname.com,Apple
+HOST-SUFFIX,apple.news,Apple
+HOST-SUFFIX,appleicloud.cn,Apple
+HOST-SUFFIX,applemx-icloud.com,Apple
+HOST-SUFFIX,appsto.re,Apple
+HOST-SUFFIX,appstore.com,Apple
+HOST-SUFFIX,cdn-apple.com,Apple
+HOST-SUFFIX,crashlytics.com,Apple
+HOST-SUFFIX,digicert.com,Apple
+HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net,Apple
+HOST-SUFFIX,icloud-apple.cn,Apple
+HOST-SUFFIX,icloud-content.com,Apple
+HOST-SUFFIX,icloud-isupport.com,Apple
+HOST-SUFFIX,icloud-sandbox.com,Apple
+HOST-SUFFIX,icloud.ch,Apple
+HOST-SUFFIX,icloud.com,Apple
+HOST-SUFFIX,icloud.com.cn,Apple
+HOST-SUFFIX,icloud.de,Apple
+HOST-SUFFIX,icloud.ee,Apple
+HOST-SUFFIX,icloud.fi,Apple
+HOST-SUFFIX,icloud.fr,Apple
+HOST-SUFFIX,icloud.hu,Apple
+HOST-SUFFIX,icloud.ie,Apple
+HOST-SUFFIX,icloud.is,Apple
+HOST-SUFFIX,icloud.jp,Apple
+HOST-SUFFIX,icloud.lv,Apple
+HOST-SUFFIX,icloud.net.cn,Apple
+HOST-SUFFIX,icloud.om,Apple
+HOST-SUFFIX,icloud.org,Apple
+HOST-SUFFIX,icloud.pt,Apple
+HOST-SUFFIX,icloud.ro,Apple
+HOST-SUFFIX,icloud.se,Apple
+HOST-SUFFIX,icloud.si,Apple
+HOST-SUFFIX,icloud.sk,Apple
+HOST-SUFFIX,icloud.vn,Apple
+HOST-SUFFIX,icloudads.net,Apple
+HOST-SUFFIX,icloudapple.cn,Apple
+HOST-SUFFIX,icloudbox.net,Apple
+HOST-SUFFIX,icloudbrowser.net,Apple
+HOST-SUFFIX,icloude.com,Apple
+HOST-SUFFIX,icloudhome.com,Apple
+HOST-SUFFIX,icloudmail.net,Apple
+HOST-SUFFIX,icloudmusic.net,Apple
+HOST-SUFFIX,icloudnet.net,Apple
+HOST-SUFFIX,icloudo.com,Apple
+HOST-SUFFIX,icloudo.de,Apple
+HOST-SUFFIX,icloudo.net,Apple
+HOST-SUFFIX,icloudos.de,Apple
+HOST-SUFFIX,icloudos.net,Apple
+HOST-SUFFIX,icloudpay.net,Apple
+HOST-SUFFIX,icloudsecure.net,Apple
+HOST-SUFFIX,icloudsetup.com,Apple
+HOST-SUFFIX,ios-icloud.com,Apple
+HOST-SUFFIX,itunes.com,Apple
+HOST-SUFFIX,itunes.com.edgekey.net,Apple
+HOST-SUFFIX,me.com,Apple
+HOST-SUFFIX,myicloud.net,Apple
+HOST-SUFFIX,mylcloud.net,Apple
+HOST-SUFFIX,mzstatic.com,Apple
+HOST-SUFFIX,store.apple.com.edgekey.net,Apple
+HOST-SUFFIX,www.apple.com.edgekey.net,Apple
+HOST-SUFFIX,wwwicloud.com,Apple
+HOST-KEYWORD,apple.com.akadns.net,Apple
+HOST-KEYWORD,icloud,Apple
+HOST-KEYWORD,icloud.com.akadns.net,Apple
+HOST-KEYWORD,icoudo,Apple
+HOST-KEYWORD,icoudos,Apple
+HOST-KEYWORD,testflight,Apple
+USER-AGENT,%E5%9C%B0%E5%9B%BE*,Apple
+USER-AGENT,%E6%9F%A5%E6%89%BE*,Apple
+USER-AGENT,%E8%AE%BE%E7%BD%AE*,Apple
+USER-AGENT,*WeatherFoundation*,Apple
+USER-AGENT,*com.apple.mobileme.fmip1,Apple
+USER-AGENT,AppStore*,Apple
+USER-AGENT,AppleNews*,Apple
+USER-AGENT,AppleTV*,Apple
+USER-AGENT,FMDClient*,Apple
+USER-AGENT,FMFD*,Apple
+USER-AGENT,FindMy*,Apple
+USER-AGENT,Maps*,Apple
+USER-AGENT,Music*,Apple
+USER-AGENT,TestFlight*,Apple
+USER-AGENT,com.apple.Maps,Apple
+USER-AGENT,com.apple.appstored*,Apple
+USER-AGENT,com.apple.geod*,Apple
+USER-AGENT,com.apple.news*,Apple
+USER-AGENT,com.apple.trustd*,Apple
+USER-AGENT,com.apple.tv*,Apple
+USER-AGENT,fmflocatord*,Apple
+USER-AGENT,geod*,Apple
+USER-AGENT,locationd*,Apple
 IP-CIDR,139.178.128.0/18,Apple
 IP-CIDR,144.178.0.0/19,Apple
+IP-CIDR,144.178.36.0/22,Apple
+IP-CIDR,144.178.48.0/20,Apple
+IP-CIDR,17.0.0.0/8,Apple
 IP-CIDR,192.35.50.0/24,Apple
 IP-CIDR,198.183.17.0/24,Apple
 IP-CIDR,205.180.175.0/24,Apple
-  
-# App Store
-# Store content such as apps, books, and music
-DOMAIN-SUFFIX,apps.apple.com,PROXY
-DOMAIN-SUFFIX,itunes.apple.com,PROXY
-DOMAIN-SUFFIX,itunes-apple.com.akadns.net,PROXY
-DOMAIN-SUFFIX,mzstatic.com,PROXY
-DOMAIN,ppq.apple.com,PROXY
-
-# > App Store Connect
-DOMAIN,appstoreconnect.apple.com,App Store Connect
-DOMAIN,iosapps-ssl.itunes.apple.com,App Store Connect
-DOMAIN,itcmobile.itunes.apple.com,App Store Connect
-
-  
-# Find My
-DOMAIN,fmfmobile.icloud.com,PROXY
-DOMAIN,fmipmobile.icloud.com,PROXY
-DOMAIN,statici.icloud.com,PROXY
-
-# Fitness+
-DOMAIN,hls-svod.itunes.apple.com,PROXY
-
-# > iCloud email
-DOMAIN-SUFFIX,mail.icloud.com.cn,iCloudMail
-DOMAIN-SUFFIX,mail.me.com,iCloudMail
-
-# > Apple Music
-USER-AGENT,Music*,PROXY
-DOMAIN-SUFFIX,music.apple.com,PROXY
-DOMAIN,aod.itunes.apple.com,PROXY
-DOMAIN,audio.itunes.apple.com,PROXY
-DOMAIN,audio-ssl.itunes.apple.com,PROXY
-DOMAIN,mvod.itunes.apple.com,PROXY
-DOMAIN,streamingaudio.itunes.apple.com,PROXY
-DOMAIN-SUFFIX,blobstore.apple.com,PROXY
-
-# > Apple News
-DOMAIN,gateway.icloud.com,PROXY
-DOMAIN,gspe1-ssl.ls.apple.com,PROXY
-DOMAIN-SUFFIX,apple.news,PROXY
-DOMAIN,news-assets.apple.com,PROXY
-DOMAIN,news-client.apple.com,PROXY
-DOMAIN,news-edge.apple.com,PROXY
-DOMAIN,news-events.apple.com,PROXY
-DOMAIN,apple.comscoreresearch.com,PROXY
-
-# Siri
-DOMAIN,guzzoni.apple.com,PROXY
-
-# Software Update
-# > iOS updates
-DOMAIN,appldnld.apple.com,PROXY
-DOMAIN,ns.itunes.apple.com,PROXY
-# > iOS, tvOS, and macOS
-DOMAIN,mesu.apple.com,PROXY
-DOMAIN,updates.cdn-apple.com,PROXY
-DOMAIN,updates-http.cdn-apple.com,PROXY
-DOMAIN,xp.apple.com,PROXY
-
-# TV
-USER-AGENT,AppleTV*,PROXY
-USER-AGENT,com.apple.tv*,PROXY
-DOMAIN-SUFFIX,tv.apple.com,PROXY
-DOMAIN,hls.itunes.apple.com,PROXY
-DOMAIN,hls-amt.itunes.apple.com,PROXY
-DOMAIN,play-edge.itunes.apple.com,PROXY
-  
-# TestFlight
-DOMAIN,beta.apple.com,PROXY
-DOMAIN,testflight.apple.com,PROXY
-  
-# iCloud
-DOMAIN-SUFFIX,apple-cloudkit.com,PROXY
-DOMAIN-SUFFIX,icloud.com,PROXY
-DOMAIN-SUFFIX,icloud.com.cn,PROXY
-DOMAIN-SUFFIX,icloud-content.com,PROXY
-DOMAIN,www-cdn.icloud.com.akadns.net,PROXY
-
-# Block iOS Update
-DOMAIN,mesu.apple.com,REJECT
-DOMAIN,gdmf.apple.com,REJECT
-DOMAIN,updates-http.cdn-apple.com,REJECT
-DOMAIN,xp.apple.com,REJECT
-
-# ---(Apple)---
-# > Apple URL Shortener
-DOMAIN-SUFFIX,appsto.re,PROXY
-# > iBooks Store download
-DOMAIN,books.itunes.apple.com,PROXY
-# > App Store Preview
-DOMAIN,apps.apple.com,PROXY
-DOMAIN,itunes.apple.com,PROXY
-# > Spotlight
-DOMAIN,api-glb-sea.smoot.apple.com,PROXY
-# > Look Up
-DOMAIN-SUFFIX,smoot.apple.com,PROXY
-DOMAIN,lookup-api.apple.com,PROXY
-# > Apple Music Web
-DOMAIN,beta.music.apple.com,PROXY
+IP-CIDR,63.92.224.0/19,Apple
+IP-CIDR,65.199.22.0/23,Apple
