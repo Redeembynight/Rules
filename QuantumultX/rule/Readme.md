@@ -1,4 +1,4 @@
-#去除重合部分，仅自用
+# 资源来自：
 # @ blackmatrix7
 # @ Tartarus2014
 # @ Orz-3
