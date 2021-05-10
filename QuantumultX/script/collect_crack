@@ -72,14 +72,14 @@ https:\/\/pay\.wecut\.com\/apple\/(iosVerifyReceipt|iosAppVerifyReceipt)\.php ur
 
 # *.xmind.*
 # XMind （越南大佬）(恢复订阅）
-https?:\/\/.*\.xmind\..*\/_res\/(devices|user_sub_status|appstore/sub) url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/XMind.js
+https?:\/\/.*\.xmind\..*\/_res\/(devices|user_sub_status|appstore/sub) url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/xmind.js
 
 # i.at.qq.com
 # 微信听书解锁vip（少年歌行pro製作）
 ^https:\/\/i\.at\.qq\.com\/pay\/memberinfo url script-response-body https://raw.githubusercontent.com/sngxpro/QuantumultX/master/wxts/wxts.js
 
 # *.wtzw.com
-# 七猫小说解锁vip(by公众号：少年歌行pro 製作，轉載請保留出處信息)
+# 七猫小说解锁vip(by公众号：少年歌行pro)
 https://(.+)\.wtzw\.com/.+ url script-response-body https://github.com/sngxpro/QuantumultX/raw/master/qimao/sngxqmxs.js
 
 # *.caixin.com
@@ -88,18 +88,22 @@ https://mappsv5.caixin.com/articlev5/* url script-response-body https://raw.gith
 # 财新周刊 解锁会员文章（by公众号墨鱼手记）
 http://ipadcms.caixin.com/tmp/articles/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cxzk.js
 
-# 
+# mid.zineapi.com
 # Varlens解锁PRO(ios黑科技)（需登录）
 ^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/ url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/Varlens.js
 
-#医考帮(公众号：墨鱼手记）（需登录）
+# api.yikaobang.com.cn
+# 医考帮(公众号：墨鱼手记）（需登录）
 https://api.yikaobang.com.cn/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ykb.js
 
-#Python Ai解锁会员 (ios黑科技)
+# ws.60he.com
+# Python Ai解锁会员 (ios黑科技)
 ^http:\/\/ws\.60he\.com\/(book|user).+ url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/PythonAI.js
 
-#Charger Master-充电助手（20201206）
+# api.yonekura.cn
+#Charger Master-充电助手（by公众号墨鱼手记）
 https://api.yonekura.cn/3.6.8/uicommon/getuser url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cdzs.js
+
 
 # Co Sleep-小睡眠（by 黑黑酱）
 ^https:\/\/api\.psy-1\.com\/cosleep\/user\/info url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xiaoshuimian.js
