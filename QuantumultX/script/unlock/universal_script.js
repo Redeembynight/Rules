@@ -1,6 +1,6 @@
 /*
-# iTunes_verify_receipt
-# 该域名万能通用脚本（by 越南大佬），Attention：试用订阅——取消订阅——恢复订阅
+# iTunes_verify_receipt（by 越南大佬）
+# 该域名万能通用脚本，Attention：试用订阅——取消订阅——恢复订阅
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/verify_receipt.js
 
 buy.itunes.apple.com,
