@@ -282,6 +282,7 @@ https://api.revenuecat.com/v1/subscribers url script-response-body https://raw.g
 #picsart美易
 ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
 
+# buy.itunes.apple.com (此域名会影响apple相关服务）
 # bear熊掌记 @Miao Miao
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js
 #Color Collect 色采
