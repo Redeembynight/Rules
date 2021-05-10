@@ -2,33 +2,42 @@
 
 hostname = account.wps.cn, xrckeji.com, www.helloshiyu.com, cm.szsszykj.com, api_2496.kuwo.cn, api.interpreter.caiyunai.com, note.youdao.com, panel.getdailyart.com, api2.mubu.com, api.chuangqi.store, biz.lemonyd.com, gateway.ergedd.com, diary.7english.cn, vstou.faxingwu.com, purchases.ws.pho.to, pay.wecut.com, *.xmind.*, i.at.qq.com, *.wtzw.com, *.caixin.com, mid.zineapi.com, api.yikaobang.com.cn, ws.60he.com, api.yonekura.cn, api.psy-1.com, irecgo.softin-tech.com, app.flashdown365.com, appapi.neuralprisma.com, console.qker.com, wx.520gyh.com, book.haitunwallet.com, vira.llsapp.com, billing.peakcloud.org, zebra.maka.im, xianbeikeji.com, www.mindmeister.com, api.591master.com, 115.28.168.103, api.flexibits.com, avoscloud.com, api.reface.video, getway.radio.cn, api.dushu.io, r.51wnl-cq.com, api.shayujizhang.com, api2.fitplanapp.com, license.pdfexpert.com, outcut.szsszykj.com, www.40sishi.com, biz.caiyunapp.com, planner5d.com, www.api.monkeyuni.net, dayone.me, api.overhq.com, api.pushover.net, api-kinemaster-assetstore.*, api.sololearn.com, api.lingokids.com, api.revenuecat.com, api.getmimo.com, apimboom2.globaldelight.net, api.calm.com, www.calm.com, accounts.elevateapp.net, api.busuu.com, api.mondlylanguages.com, lambda.us-east-1.amazonaws.com, api.sync.me, origin-prod-phoenix.jibjab.com, api.meiease.c*, api.memrise.com, lcs-mobile-cops.adobe.io, engbright.com, photos.adobe.io, backend.getdrafts.com, apic.musixmatch.com, api.textnow.me, *.xunjie*.com, subs.platforms.team, api.gyrosco.pe, snailsleep.net, music.snailsleep.net, community.snailsleep.net, nmeditation.snailsleep.net, vsco.co, getuserinfo-globalapi.zymk.cn, api.picsart.c*, api.meiease.c*, buy.itunes.apple.com, *.xxjjappss.com, *.huaerdadi.com, ap*.intsig.net, p.du.163.com
 
-#WPS解锁  超级会员、wps会员、稻壳会员 (By eHpo)（国区！！！）
+# account.wps.cn
+# WPS解锁  超级会员、wps会员、稻壳会员 (By eHpo)（国区！！！）
 ^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 
-#读书笔记 Pro（20210106）(公众号：墨鱼手记）
+# xrckeji.com
+# 读书笔记 Pro（20210106）(公众号：墨鱼手记）
 https://xrckeji.com/union/app/user/query url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/mzjz.js
-#萌猪记账 Pro（20210106）(公众号：墨鱼手记）
+# 萌猪记账 Pro（20210106）(公众号：墨鱼手记）
 https://xrckeji.com/itally/app/user/query url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/mzjz.js
 
-#睡眠助手 解锁VIP独享的白噪音乐（20201010）(公众号：墨鱼手记）
+# www.helloshiyu.com
+# 睡眠助手 解锁VIP独享的白噪音乐（20201010）(公众号：墨鱼手记）
 https://www.helloshiyu.com/sleep/user/profile url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/smzs.js
 
-#趣制作 解锁会员模板视频（20200925）(公众号：墨鱼手记）Attention：登录使用
+# cm.szsszykj.com
+# 趣制作 解锁会员模板视频（20200925）(公众号：墨鱼手记）Attention：登录使用
 https://cm.szsszykj.com/interface/GetVip.php url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/qzz.js
 
-#2496音乐解锁vip ( by 少年歌行PRO )
+# api_2496.kuwo.cn
+# 2496音乐解锁vip ( by 少年歌行PRO )
 ^http?:\/\/api\_\d{4}\.kuwo\.cn\/front\/user\/vipstatus$ url script-response-body https://raw.githubusercontent.com/sngxpro/QuantumultX/master/2496/2496.js
 
-#彩云小译   (by @superuv)
+# api.interpreter.caiyunai.com
+# 彩云小译   (by @superuv)
 ^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cyxy.js
 
-#有道云笔记VIP (ByAlex0510)
+# note.youdao.com
+# 有道云笔记VIP (ByAlex0510)
 https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/ydybj.js
 
-#每日艺术 解锁vip权限（20201123）(公众号：墨鱼手记）
+# panel.getdailyart.com
+# 每日艺术 解锁vip权限（20201123）(公众号：墨鱼手记）
 https://panel.getdailyart.com/APIMobile/users/single url response-body account_type":"0 response-body account_type":"2
 
-#幕布 @ZhiYi-N
+# api2.mubu.com
+# 幕布 @ZhiYi-N
 https:\/\/api2\.mubu\.com\/v3\/api\/user\/current_user url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/mainland/MuBu.js
 
 #########以下可在US商店使用
