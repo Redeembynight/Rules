@@ -283,18 +283,20 @@ https://api.revenuecat.com/v1/subscribers url script-response-body https://raw.g
 ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
 
 # buy.itunes.apple.com (此域名会影响apple相关服务，建议单独引用，不用同时关闭）
+# 该域名存在万能通用脚本（by 越南大佬），Attention：试用订阅——取消订阅——恢复订阅
+# https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/verify_receipt.js（超强！！！成功后关掉重写，甚至重新下载，仍然有效！！！！）
 # bear熊掌记 @Miao Miao
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js
-#Color Collect 色采
+# Color Collect 色采
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/ColorCollect.js
-#Avatarify 破解会员功能（20210228）(公众号：墨鱼手记）
+# Avatarify 破解会员功能（20210228）(公众号：墨鱼手记）
 https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/avatarify.js
 
 # 小小影视 photonmang (*.xxjjappss.com,*.huaerdadi.com)
 https:\/\/.*\..*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/photonmang/quantumultX/master/xxys.js
 
-#扫描全能王CamScanner
+# 扫描全能王CamScanner
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
 
-#网易蜗牛读书解锁会员
+# 网易蜗牛读书解锁会员
 ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
