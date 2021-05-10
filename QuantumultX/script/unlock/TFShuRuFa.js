@@ -5,7 +5,7 @@
 QX:
 
 #TF输入法解锁会员
-^http:\/\/api\.chuangqi\.store\/.+ url script-response-body tfsrf.js
+^http:\/\/api\.chuangqi\.store\/.+ url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/TFShuRuFa.js
 
 [mitm]
 hostname = api.chuangqi.store
