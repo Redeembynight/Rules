@@ -1,5 +1,5 @@
 /*
-# Co Sleep-小睡眠（by 黑黑酱）
+# Co Sleep-小睡眠（by 黑黑酱）小睡眠 新版有sign校验
 下载地址 https://apps.apple.com/us/app/co-sleep-white-noise/id1194338569
 
 ^https:\/\/api\.psy-1\.com\/cosleep\/user\/info url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xiaoshuimian.js
