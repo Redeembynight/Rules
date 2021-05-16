@@ -27,6 +27,12 @@
 
 ###################################################以下可在US商店使用
 
+#我奥篮球 解锁付费直播回放及回放下载（by photonmang)
+
+#ConceptisSudoku解锁 ( @787a68 )
+
+#作业帮 解锁付费音频资源 (by photonmang)
+
 #TF输入法解锁会员(ios黑科技）
 
 #黑岩小说（少年歌行pro整理）
@@ -58,8 +64,6 @@
 #Python Ai解锁会员 (ios黑科技)
 
 #Charger Master-充电助手（20201206）
-
-#Co Sleep-小睡眠（by 黑黑酱）
 
 #ScreenRecorder+ 录丸解锁vip ( by 少年歌行PRO )
 
