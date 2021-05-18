@@ -300,7 +300,7 @@ https://api.revenuecat.com/v1/subscribers url script-response-body https://raw.g
 # https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/verify_receipt.js（超强！！！成功后关掉重写，甚至重新下载，仍然有效！！！！）
 # bear熊掌记 @Miao Miao
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js
-# Color Collect 色采
+# Color Collect 色采（包含gear解锁）
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/ColorCollect.js
 # Avatarify 破解会员功能（20210228）(公众号：墨鱼手记）
 https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/avatarify.js
