@@ -1,5 +1,4 @@
 /*
-
 Quantumult X 脚本:
 解锁白描黄金会员 （by LTribe）
 Download Link : https://t.cn/Ais9SirD
