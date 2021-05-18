@@ -13,8 +13,6 @@ https://www\.zhihu\.com/api/v4/hot_recommendation url reject-200
 https://www\.zhihu\.com/commercial_api/banners_v3/mobile_banner url reject-200
 https://zhuanlan\.zhihu\.com/api/articles/\d+/recommendation url reject-200
 
-
-
 [mitm]
 hostname = www.zhihu.com, zhuanlan.zhihu.com
 */
