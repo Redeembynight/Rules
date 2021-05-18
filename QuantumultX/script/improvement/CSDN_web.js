@@ -17,6 +17,7 @@ hostname = blog.csdn.net, *.openinstall.io
 // 免跳转应用商店(也可以直接 filter 屏蔽 openinstall.io)
 ^https:\/\/wvhzpj\.openinstall\.io\/ulink url script-echo-response https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/betterweb/csdn.req.js
 
+
  ********
  * 频道: https://t.me/elecV2
 **/
