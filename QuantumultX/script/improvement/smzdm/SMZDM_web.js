@@ -15,6 +15,7 @@ hostname = post.smzdm.com, post.m.smzdm.com
 // 再注入 CSS 进行优化
 ^https:\/\/post\.smzdm\.com\/ url script-response-body https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/betterweb/smzdm.res.js
 
+
  ********
  * 频道: https://t.me/elecV2
 **/
