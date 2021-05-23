@@ -43,7 +43,7 @@ https:\/\/api2\.mubu\.com\/v3\/api\/user\/current_user url script-response-body 
 #########以下可在US商店使用
 
 # subscription.grammarly.com
-#grammarly
+#grammarly（似乎功能还是没解。。）
 ^https:\/\/subscription\.grammarly\.com\/api\/v1\/.* url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/grammarly.js
 
 # api.xiuxiu.meitu.com
