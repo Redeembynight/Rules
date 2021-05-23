@@ -184,8 +184,11 @@ http://getway.radio.cn/app* url script-response-body https://raw.githubuserconte
 #Fitplan（by公众号墨鱼手记）
 https://api2.fitplanapp.com/fitplan-server/v2/user/profile url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/fitplan.js
 
-#Document（by公众号墨鱼手记）
+# license.pdfexpert.com
+#Document 一次性解锁勿卸载（by公众号墨鱼手记）
 https:\/\/license\.pdfexpert\.com\/api\/.+\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/documents.js
+#Scanner Pro 解锁会员权限 一次性解锁勿卸载（by公众号墨鱼手记）
+https:\/\/license\.pdfexpert\.com\/api\/.+\/scanner\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/sp.js
 
 #Quicut（by公众号墨鱼手记）
 http://outcut.szsszykj.com/api/OverseasPay/GetVip url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/qc.js
