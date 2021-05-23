@@ -1,6 +1,5 @@
 /*
-#Document 解锁PDF会员编辑功能 一次性解锁（20201108）
-
+#Document 解锁PDF会员编辑功能 一次性解锁（墨鱼手记）（20201108）
 下载地址 https://apps.apple.com/us/app/documents-by-readdle/id364901807
 
 https:\/\/license\.pdfexpert\.com\/api\/.+\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/documents.js
