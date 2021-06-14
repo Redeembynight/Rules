@@ -6,7 +6,7 @@
 
 ^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/mondly.vip.js
 
-mondly.vip.js
+api.mondlylanguages.com
 */
 var obj = JSON.parse($response.body);
 
