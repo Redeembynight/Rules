@@ -4,7 +4,7 @@
 
 下载地址 https://apps.apple.com/us/app/drops-fun-language-learning/id939540371
 
-^https:\/\/lambda\.us-east-1\.amazonaws\.com/.*/functions\/prod-4-syncPurchases\/invocations$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/drops.js
+^https:\/\/lambda\.us-east-1\.amazonaws\.com/.*/functions\/prod-4-syncPurchases\/invocations$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/drops.js
 
 lambda.us-east-1.amazonaws.com
 */
