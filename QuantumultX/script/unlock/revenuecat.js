@@ -1,6 +1,6 @@
 /*
 noto笔记&Airmail Pro--Eric
-https://api.revenuecat.com/v1/subscribers url script-response-body https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/noto.js
+https://api.revenuecat.com/v1/subscribers url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/revenuecat.js
 
 hostname：api.revenuecat.com
 */
