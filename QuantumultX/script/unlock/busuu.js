@@ -4,7 +4,7 @@
 
 下载地址 https://apps.apple.com/us/app/busuu-language-learning-app/id379968583
 
-^https:\/\/api\.busuu\.com\/users\/me* url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/busuu.vip.js
+^https:\/\/api\.busuu\.com\/users\/me* url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/busuu.js
 
 api.busuu.com,
 */
