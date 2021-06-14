@@ -4,7 +4,7 @@
 
 下载地址 https://apps.apple.com/us/app/monkey-junior-learn-to-read/id930331514
 
-^https:\/\/www\.api\.monkeyuni\.net\/api\/.+\/mobile\/account\/load-update url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/monkey.js
+^https:\/\/www\.api\.monkeyuni\.net\/api\/.+\/mobile\/account\/load-update url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/monkey.js
 
 www.api.monkeyuni.net, 
 */
