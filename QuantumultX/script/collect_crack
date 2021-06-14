@@ -231,10 +231,11 @@ https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response
 #lingokids
 ^https:\/\/api\.lingokids\.com\/v1\/renovate_session$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/lingokids.js
 
-# Pillow (By @CheeryTodo)(解锁后注释即可）
+# api.revenuecat.com
+#Pillow (By @CheeryTodo)(解锁后注释即可）
 ;https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pillow.js
-# noto笔记 @Alex0510
-https://api.revenuecat.com/v1/subscribers url script-response-body https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/noto.js
+#noto笔记&Airmail Pro(by Eric)
+https://api.revenuecat.com/v1/subscribers url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/revenuecat.js
 
 #mimo
 ^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/mimo.js
