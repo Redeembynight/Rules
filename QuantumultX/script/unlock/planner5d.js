@@ -4,7 +4,7 @@
 
 下载地址 https://apps.apple.com/us/app/planner-5d-interior-design/id606173978
 
-^https:\/\/planner5d\.com\/api\/sets url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/planner5d.js
+^https:\/\/planner5d\.com\/api\/sets url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/planner5d.js
 
 planner5d.com,
 */
