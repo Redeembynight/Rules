@@ -1,5 +1,5 @@
 /*
-noto笔记解锁Pro--Eric
+noto笔记&Airmail Pro--Eric
 https://api.revenuecat.com/v1/subscribers url script-response-body https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/noto.js
 
 hostname：api.revenuecat.com
