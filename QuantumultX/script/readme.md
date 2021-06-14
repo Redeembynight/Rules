@@ -27,6 +27,10 @@
 
 ###################################################以下可在US商店使用
 
+#enpass（by 越南老哥）
+
+#grammarly（by 越南老哥）
+
 #美图秀秀粉钻 (by-Gökotta)
 
 #Vizmato 破解VIP无限使用高级功能(公众号：墨鱼手记）
@@ -133,7 +137,7 @@
 
 #Pillow (By @CheeryTodo)
 
-#noto笔记 @Alex0510
+#noto笔记&Airmail Pro(by Eric)
 
 #mimo
 
