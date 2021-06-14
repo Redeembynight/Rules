@@ -4,7 +4,7 @@
 
 下载地址 https://apps.apple.com/us/app/elevate-brain-training/id875063456
 
-^https:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/elevate.vip.js
+^https:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/elevate.js
 
 accounts.elevateapp.net
 */
