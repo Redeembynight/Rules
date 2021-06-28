@@ -1,6 +1,6 @@
 # 您可以在使用后手动将本模块禁用，以免产生不必要的MITM
 
-hostname = account.wps.cn, xrckeji.com, www.helloshiyu.com, cm.szsszykj.com, api_2496.kuwo.cn, api.interpreter.caiyunai.com, note.youdao.com, panel.getdailyart.com, api2.mubu.com, api-production.endel.io, api.ankiapp.com, license.enpass.io, subscription.grammarly.com, api.xiuxiu.meitu.com, web.vizmato.com, api.woaoo.net, mobile.conceptispuzzles.com, mall.zuoyebang.com, apivip.zybang.com, api.chuangqi.store, biz.lemonyd.com, gateway.ergedd.com, diary.7english.cn, vstou.faxingwu.com, purchases.ws.pho.to, pay.wecut.com, *.xmind.*, i.at.qq.com, *.wtzw.com, *.caixin.com, mid.zineapi.com, api.yikaobang.com.cn, ws.60he.com, api.yonekura.cn, irecgo.softin-tech.com, app.flashdown365.com, appapi.neuralprisma.com, console.qker.com, wx.520gyh.com, book.haitunwallet.com, vira.llsapp.com, billing.peakcloud.org, zebra.maka.im, xianbeikeji.com, www.mindmeister.com, api.591master.com, 115.28.168.103, api.flexibits.com, avoscloud.com, api.reface.video, getway.radio.cn, api.dushu.io, r.51wnl-cq.com, api.shayujizhang.com, api2.fitplanapp.com, license.pdfexpert.com, outcut.szsszykj.com, www.40sishi.com, biz.caiyunapp.com, planner5d.com, www.api.monkeyuni.net, dayone.me, api.overhq.com, api.pushover.net, api-kinemaster-assetstore.*, api.sololearn.com, api.lingokids.com, api.revenuecat.com, api.getmimo.com, apimboom2.globaldelight.net, api.calm.com, www.calm.com, accounts.elevateapp.net, api.busuu.com, api.mondlylanguages.com, lambda.us-east-1.amazonaws.com, api.sync.me, origin-prod-phoenix.jibjab.com, api.meiease.c*, api.memrise.com, lcs-mobile-cops.adobe.io, engbright.com, photos.adobe.io, backend.getdrafts.com, apic.musixmatch.com, api.textnow.me, *.xunjie*.com, subs.platforms.team, api.gyrosco.pe, snailsleep.net, music.snailsleep.net, community.snailsleep.net, nmeditation.snailsleep.net, vsco.co, getuserinfo-globalapi.zymk.cn, api.picsart.c*, api.meiease.c*, buy.itunes.apple.com, *.xxjjappss.com, *.huaerdadi.com, ap*.intsig.net, p.du.163.com
+hostname = account.wps.cn, xrckeji.com, www.helloshiyu.com, cm.szsszykj.com, api_2496.kuwo.cn, api.interpreter.caiyunai.com, note.youdao.com, panel.getdailyart.com, api2.mubu.com, api-production.endel.io, api.ankiapp.com, license.enpass.io, subscription.grammarly.com, api.xiuxiu.meitu.com, web.vizmato.com, api.woaoo.net, mobile.conceptispuzzles.com, mall.zuoyebang.com, apivip.zybang.com, api.chuangqi.store, gateway.ergedd.com, diary.7english.cn, vstou.faxingwu.com, purchases.ws.pho.to, pay.wecut.com, *.xmind.*, *.caixin.com, mid.zineapi.com, api.yikaobang.com.cn, ws.60he.com, api.yonekura.cn, irecgo.softin-tech.com, app.flashdown365.com, appapi.neuralprisma.com, console.qker.com, wx.520gyh.com, book.haitunwallet.com, vira.llsapp.com, billing.peakcloud.org, zebra.maka.im, xianbeikeji.com, www.mindmeister.com, api.591master.com, 115.28.168.103, api.flexibits.com, avoscloud.com, api.reface.video, getway.radio.cn, api.dushu.io, r.51wnl-cq.com, api.shayujizhang.com, api2.fitplanapp.com, license.pdfexpert.com, outcut.szsszykj.com, www.40sishi.com, biz.caiyunapp.com, planner5d.com, www.api.monkeyuni.net, dayone.me, api.overhq.com, api.pushover.net, api-kinemaster-assetstore.*, api.sololearn.com, api.lingokids.com, api.revenuecat.com, api.getmimo.com, apimboom2.globaldelight.net, api.calm.com, www.calm.com, accounts.elevateapp.net, api.busuu.com, api.mondlylanguages.com, lambda.us-east-1.amazonaws.com, api.sync.me, origin-prod-phoenix.jibjab.com, api.meiease.c*, api.memrise.com, lcs-mobile-cops.adobe.io, engbright.com, photos.adobe.io, backend.getdrafts.com, apic.musixmatch.com, api.textnow.me, *.xunjie*.com, subs.platforms.team, api.gyrosco.pe, snailsleep.net, music.snailsleep.net, community.snailsleep.net, nmeditation.snailsleep.net, vsco.co, getuserinfo-globalapi.zymk.cn, api.picsart.c*, api.meiease.c*, buy.itunes.apple.com, *.xxjjappss.com, *.huaerdadi.com, ap*.intsig.net, p.du.163.com
 
 # account.wps.cn
 # WPS解锁  超级会员、wps会员、稻壳会员 (By eHpo)（国区！！！）
@@ -83,10 +83,6 @@ https://apivip.zybang.com/vipols/vip/viphomev1?.+ url script-response-body https
 # TF输入法解锁会员(ios黑科技）
 ^http:\/\/api\.chuangqi\.store\/.+ url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/TFShuRuFa.js
 
-# biz.lemonyd.com
-# 黑岩小说（少年歌行pro整理）
-https://biz.lemonyd.com(\/user\/account\/info|\/activity\/activity\/account) url script-response-body https://raw.githubusercontent.com/sngxpro/QuantumultX/master/hyxs/hyxs.js
-
 # gateway.ergedd.com
 # 儿歌点点解锁vip(by公众号：少年歌行pro)
 http:\/\/gateway.ergedd.com\/dduser\/user\/center\/set url script-response-body https://raw.githubusercontent.com/sngxpro/QuantumultX/master/egdd/sngxegdd.js
@@ -110,14 +106,6 @@ https:\/\/pay\.wecut\.com\/apple\/(iosVerifyReceipt|iosAppVerifyReceipt)\.php ur
 # *.xmind.*
 # XMind （越南大佬）(恢复订阅）
 https?:\/\/.*\.xmind\..*\/_res\/(devices|user_sub_status|appstore/sub) url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/xmind.js
-
-# i.at.qq.com
-# 微信听书解锁vip（少年歌行pro製作）
-^https:\/\/i\.at\.qq\.com\/pay\/memberinfo url script-response-body https://raw.githubusercontent.com/sngxpro/QuantumultX/master/wxts/wxts.js
-
-# *.wtzw.com
-# 七猫小说解锁vip(by公众号：少年歌行pro)
-https://(.+)\.wtzw\.com/.+ url script-response-body https://github.com/sngxpro/QuantumultX/raw/master/qimao/sngxqmxs.js
 
 # *.caixin.com
 # 财新（by公众号墨鱼手记）
