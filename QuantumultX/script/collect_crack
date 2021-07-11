@@ -93,7 +93,7 @@ https://apivip.zybang.com/vipols/vip/viphomev1?.+ url script-response-body https
 
 # gateway.ergedd.com
 # 儿歌点点解锁vip(by公众号：少年歌行pro)
-http:\/\/gateway.ergedd.com\/dduser\/user\/center\/set url script-response-body https://raw.githubusercontent.com/sngxpro/QuantumultX/master/egdd/sngxegdd.js
+http:\/\/gateway.ergedd.com\/dduser\/user\/center\/set url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/ErGeDianDian.js
 
 # diary.7english.cn
 # moo日记（搞机大神抓包，公众号少年歌行pro适配圈x）
