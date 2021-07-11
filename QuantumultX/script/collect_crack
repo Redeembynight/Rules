@@ -187,9 +187,6 @@ https://avoscloud.com/* url script-response-body https://raw.githubusercontent.c
 #汉字的故事（by公众号墨鱼手记）
 https://avoscloud.com/1.1/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/hzdgs.js
 
-#Reface（by公众号墨鱼手记）
-https://api.reface.video/api/reface/v1/iosSubscription url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/reface.js
-
 #云听（by公众号墨鱼手记）
 http://getway.radio.cn/app* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yt.js
 
