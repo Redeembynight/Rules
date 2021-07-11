@@ -2,7 +2,7 @@
 #moo日记（搞机大神抓包，公众号少年歌行pro适配圈x）
 下载地址：https://apps.apple.com/us/app/moo%E6%97%A5%E8%AE%B0-%E4%BD%A0%E7%9A%84%E5%BF%83%E6%83%85%E6%A0%91%E6%B4%9E/id1473250948
 
-https://diary.7english.cn:2433/api/user/userInfo url script-response-body https://raw.githubusercontent.com/sngxpro/QuantumultX/master/moo/moo.js
+https://diary.7english.cn:2433/api/user/userInfo url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/Moo_RiJi.js
 
 diary.7english.cn
 */
