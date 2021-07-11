@@ -7,13 +7,10 @@
 [rewrite_local]
 #儿歌点点vip
 
-http:\/\/gateway.ergedd.com\/dduser\/user\/center\/set url script-response-body https://raw.githubusercontent.com/sngxpro/QuantumultX/master/egdd/sngxegdd.js
+http:\/\/gateway.ergedd.com\/dduser\/user\/center\/set url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/ErGeDianDian.js
 
 [mitm]
 hostname= gateway.ergedd.com
-下载地址：appstore
-
-
 
 */
 
