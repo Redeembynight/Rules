@@ -22,7 +22,7 @@ https://cm.szsszykj.com/interface/GetVip.php url script-response-body https://ra
 
 # api_2496.kuwo.cn
 # 2496音乐解锁vip (by 少年歌行PRO)
-^http?:\/\/api\_\d{4}\.kuwo\.cn\/front\/user\/vipstatus$ url script-response-body https://raw.githubusercontent.com/sngxpro/QuantumultX/master/2496/2496.js
+^http?:\/\/api\_\d{4}\.kuwo\.cn\/front\/user\/vipstatus$ url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/mainland/2496.js
 
 # api.interpreter.caiyunai.com
 # 彩云小译   (by @superuv)
