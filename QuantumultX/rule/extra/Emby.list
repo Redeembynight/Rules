@@ -5,8 +5,6 @@ DOMAIN,emby.nexitally.com
 
 # > 流媒体emby-paoche服务器
 DOMAIN,emby.cjpc.cc
-DOMAIN,emby-aga.cjpc.cc
-DOMAIN,emby-hk.cjpc.cc
 
 # > 流媒体emby-flowercloud服务器
 DOMAIN,emby.flowercloud.yt
@@ -38,14 +36,8 @@ DOMAIN,movie.xeton.dev
 DOMAIN,servers.xeton.dev
 
 # > 流媒体emby-Otaku体验服
-DOMAIN,emby.ok.edu.hk
-DOMAIN,emby.neko.edu.rs 
-DOMAIN,pub1.emby.wtf
-DOMAIN,pub1cf.emby.wtf
-DOMAIN,pub2.emby.wtf
-DOMAIN,pub2cf.emby.wtf
-DOMAIN,pub3.emby.wtf
-DOMAIN,pub3cf.emby.wtf
+DOMAIN,emby.otakudrive.life
+DOMAIN,emby2.otakudrive.life 
 
 # > 流媒体emby-jmsooo体验服
 DOMAIN,agahk1.jmsooo.com
@@ -57,11 +49,148 @@ DOMAIN,hinet.jmsooo.com
 DOMAIN,cf1.jmsooo.com
 
 # > 流媒体pornemby服务器
-DOMAIN,aga.pornemby.club
+DOMAIN,pornemby.club
 
 # > 流媒体IMM服务器
 DOMAIN,emby.immtel.com
 
 # > 流媒体Odyssey服务器
-DOMAIN,shogouki.youremby.gq
-DOMAIN,aga01.youremby.gq
+DOMAIN,cf.odysseyplus.site
+DOMAIN,agahk.odysseyplus.site
+DOMAIN,agasg.odysseyplus.site
+DOMAIN,ru.odysseyplus.site
+
+# > 流媒体Exflux服务器
+DOMAIN,line.emby.men
+
+# > 流媒体SoCloud服务器
+DOMAIN,emby.run
+
+# > 流媒体普拉斯影业服务器
+DOMAIN,emby.plusmedia.site
+DOMAIN,emby-sg.plusmedia.site
+DOMAIN,emby-cf.plusmedia.site
+DOMAIN,emby.xeton.dev
+DOMAIN,jellyfin.xeton.dev
+DOMAIN,movie.xeton.dev
+DOMAIN,servers.xeton.dev
+
+# > 流媒体终点站服务器
+DOMAIN,pub1.emby.wtf
+DOMAIN,pub1.emby.wtf
+DOMAIN,pub1alt.emby.wtf
+DOMAIN,pub1alt.emby.wtf
+DOMAIN,pub1sg.emby.wtf
+DOMAIN,pub1sg.emby.wtf
+DOMAIN,pub1sgalt.emby.wtf
+DOMAIN,pub1sgalt.emby.wtf
+DOMAIN,pub1back1.emby.wtf
+DOMAIN,pub1back2.emby.wtf
+DOMAIN,pub1back3.emby.wtf
+DOMAIN,pub1back5.emby.wtf
+DOMAIN,pub1back4.emby.wtf
+DOMAIN,pub1back6.emby.wtf
+DOMAIN,pub1back7.emby.wtf
+DOMAIN,pub1back7.emby.wtf
+DOMAIN,pub1back8.emby.wtf
+DOMAIN,pub1back9.emby.wtf
+DOMAIN,pub1back10.emby.wtf
+DOMAIN,pub1back11.emby.wtf
+DOMAIN,pub1back12.emby.wtf
+DOMAIN,pub1back13.emby.wtf
+DOMAIN,pub1back1.emby.wtf
+DOMAIN,pub1back2.emby.wtf
+DOMAIN,pub1back3.emby.wtf
+DOMAIN,pub1back4.emby.wtf
+DOMAIN,pub1back5.emby.wtf
+DOMAIN,pub1back6.emby.wtf
+DOMAIN,pub1back7.emby.wtf
+DOMAIN,pub1back8.emby.wtf
+DOMAIN,pub1back9.emby.wtf
+DOMAIN,pub1back10.emby.wtf
+DOMAIN,pub1back11.emby.wtf
+DOMAIN,pub1back12.emby.wtf
+DOMAIN,pub1back13.emby.wtf
+DOMAIN,pub1sgp.emby.wtf
+DOMAIN,pub1cf.emby.wtf
+DOMAIN,pub2.emby.wtf
+DOMAIN,pub2.emby.wtf
+DOMAIN,pub2alt.emby.wtf
+DOMAIN,pub2alt.emby.wtf
+DOMAIN,pub2sg.emby.wtf
+DOMAIN,pub2sg.emby.wtf
+DOMAIN,pub2sgalt.emby.wtf
+DOMAIN,pub2sgalt.emby.wtf
+DOMAIN,pub2back1.emby.wtf
+DOMAIN,pub2back2.emby.wtf
+DOMAIN,pub2back3.emby.wtf
+DOMAIN,pub2back4.emby.wtf
+DOMAIN,pub2back5.emby.wtf
+DOMAIN,pub2back6.emby.wtf
+DOMAIN,pub2back7.emby.wtf
+DOMAIN,pub2back8.emby.wtf
+DOMAIN,pub2back9.emby.wtf
+DOMAIN,pub2back10.emby.wtf
+DOMAIN,pub2back11.emby.wtf
+DOMAIN,pub2back12.emby.wtf
+DOMAIN,pub2back13.emby.wtf
+DOMAIN,pub2back1.emby.wtf
+DOMAIN,pub2back2.emby.wtf
+DOMAIN,pub2back3.emby.wtf
+DOMAIN,pub2back4.emby.wtf
+DOMAIN,pub2back5.emby.wtf
+DOMAIN,pub2back6.emby.wtf
+DOMAIN,pub2back7.emby.wtf
+DOMAIN,pub2back8.emby.wtf
+DOMAIN,pub2back9.emby.wtf
+DOMAIN,pub2back10.emby.wtf
+DOMAIN,pub2back11.emby.wtf
+DOMAIN,pub2back12.emby.wtf
+DOMAIN,pub2back13.emby.wtf
+DOMAIN,pub2sgp.emby.wtf
+DOMAIN,pub2cf.emby.wtf
+DOMAIN,pub3.emby.wtf
+DOMAIN,pub3.emby.wtf
+DOMAIN,pub3alt.emby.wtf
+DOMAIN,pub3alt.emby.wtf
+DOMAIN,pub3sg.emby.wtf
+DOMAIN,pub3sg.emby.wtf
+DOMAIN,pub3sgalt.emby.wtf
+DOMAIN,pub3sgalt.emby.wtf 
+DOMAIN,pub3back1.emby.wtf
+DOMAIN,pub3back2.emby.wtf
+DOMAIN,pub3back3.emby.wtf
+DOMAIN,pub3back4.emby.wtf
+DOMAIN,pub3back5.emby.wtf
+DOMAIN,pub3back6.emby.wtf
+DOMAIN,pub3back7.emby.wtf
+DOMAIN,pub3back8.emby.wtf
+DOMAIN,pub3back9.emby.wtf
+DOMAIN,pub3back10.emby.wtf
+DOMAIN,pub3back11.emby.wtf
+DOMAIN,pub3back12.emby.wtf
+DOMAIN,pub3back13.emby.wtf
+DOMAIN,pub3back1.emby.wtf
+DOMAIN,pub3back2.emby.wtf
+DOMAIN,pub3back3.emby.wtf
+DOMAIN,pub3back4.emby.wtf
+DOMAIN,pub3back5.emby.wtf
+DOMAIN,pub3back6.emby.wtf
+DOMAIN,pub3back7.emby.wtf
+DOMAIN,pub3back8.emby.wtf
+DOMAIN,pub3back9.emby.wtf
+DOMAIN,pub3back10.emby.wtf
+DOMAIN,pub3back11.emby.wtf
+DOMAIN,pub3back12.emby.wtf
+DOMAIN,pub3back13.emby.wtf
+DOMAIN,pub3sgp.emby.wtf
+DOMAIN,pub3cf.emby.wtf
+
+# > 流媒体WaveCloud服务器
+DOMAIN,embyserver.ga
+
+# > 流媒体卷毛鼠服务器
+DOMAIN,jmsooo.com
+DOMAIN,cf.jmsooo.com
+DOMAIN,hk.jmsooo.com
+DOMAIN,sg.jmsooo.com
