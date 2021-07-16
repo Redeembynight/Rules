@@ -6,6 +6,11 @@
 * $request.url, $notify(title, subtitle, message), console.log(message), $done(response)
 *
 * @supported Quantumult X (v1.0.3-build141)
+
+hostname = mb3admin.com
+
+^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://subweb.oss-cn-hongkong.aliyuncs.com/Script/embycrack.js
+
 */
 var url = $request.url;
 
