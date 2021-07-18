@@ -189,6 +189,7 @@ DOMAIN,pub3cf.emby.wtf
 # > 流媒体WaveCloud服务器
 DOMAIN,embyserver.ga
 
+ip-cidr, 144.76.203.211/32, Emby
 # > 流媒体卷毛鼠服务器
 DOMAIN,jmsooo.com
 DOMAIN,cf.jmsooo.com
