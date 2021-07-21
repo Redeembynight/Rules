@@ -1,16 +1,11 @@
 /**
-彩云天气
-blackmatrix7
-Author Github: https://github.com/blackmatrix7
-
-下载地址 https://apps.apple.com/us/app/colorfulclouds-weather/id847764912
-
-QX:
-https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caiyun.js
-
-[MITM]
-hostname = biz.caiyunapp.com
- 
+ * [MITM]
+ * hostname = biz.caiyunapp.com
+ * 
+ * [Script]
+ * 彩云天气_SVIP = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/caiyun/caiyun_svip.js
+ *
+ * https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/CaiYun.js
  */
 
 const SCRIPT_NAME = '彩云天气';
@@ -19,12 +14,12 @@ const RIGHTS_REGEX = /https?:\/\/biz\.caiyunapp\.com\/membership_rights/;
 const RESULT = {
   is_vip: true,
   vip_type: "s",
-  svip_expired_at: 1882066669.9452950954,
+  svip_expired_at: 4100770309.9452950954,
 }
 const RESULT_WT = {
   vip: {
     enable: true,
-    svip_expired_at: 1882066669.9452950954
+    svip_expired_at: 4100770309.9452950954
   }
 }
 const RIGHTS = { 
