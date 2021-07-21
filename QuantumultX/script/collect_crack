@@ -206,7 +206,7 @@ http://outcut.szsszykj.com/api/OverseasPay/GetVip url script-response-body https
 ^https:\/\/www\.40sishi\.com\/list\/user\/profile$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/wdqd.js
 
 #彩云天气（20201121）Author: blackmatrix7 
-https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caiyun.js
+https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/CaiYun.js
 
 #planner5d
 ^https:\/\/planner5d\.com\/api\/sets url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/planner5d.js
