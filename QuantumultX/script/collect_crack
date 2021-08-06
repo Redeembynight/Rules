@@ -80,7 +80,7 @@ http://api.woaoo.net/.+ url script-response-body https://raw.githubusercontent.c
 
 # mobile.conceptispuzzles.com
 # ConceptisSudoku解锁 ( @787a68 )
-^https?+:\/\/mobile\.conceptispuzzles\.com\/catalog_ios\/SudokuV2 url script-response-body https://raw.githubusercontent.com/787a68/Quantumult-X/main/Script/ConceptisSudoku.js
+^https?+:\/\/mobile\.conceptispuzzles\.com\/catalog_ios\/SudokuV2 url script-response-body https://raw.githubusercontent.com/787a68/Script/main/Crack/ConceptisSudoku.js
 
 # mall.zuoyebang.com, apivip.zybang.com
 # 作业帮 解锁付费音频资源 (by photonmang)
