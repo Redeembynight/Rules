@@ -5,7 +5,7 @@ ConceptisSudoku解锁
 下载地址：https://apps.apple.com/us/app/conceptis-sudoku/id537201666
 
 [rewrite_local]
-^https?+:\/\/mobile\.conceptispuzzles\.com\/catalog_ios\/SudokuV2 url script-response-body https://raw.githubusercontent.com/787a68/Quantumult-X/main/Script/ConceptisSudoku.js
+^https?+:\/\/mobile\.conceptispuzzles\.com\/catalog_ios\/SudokuV2 url script-response-body https://raw.githubusercontent.com/787a68/Script/main/Crack/ConceptisSudoku.js
 
 mobile.conceptispuzzles.com
 */
