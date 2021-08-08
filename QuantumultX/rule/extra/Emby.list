@@ -1,5 +1,14 @@
 # https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Ruleset/Emby/Emby.list
 
+# > 流媒体猫熊服务器
+DOMAIN,embyclub.media
+DOMAIN,embyclub.com
+DOMAIN,az-hk.embyclub.com
+DOMAIN,aws-jp.EmbyClub.com
+DOMAIN,aws-kr.embyclub.com
+DOMAIN,aws-sgp.embyclub.com
+DOMAIN,aws-Hong-Kong.EmbyClub.media
+
 # > 流媒体emby-nexitally服务器
 DOMAIN,emby.nexitally.com
 
