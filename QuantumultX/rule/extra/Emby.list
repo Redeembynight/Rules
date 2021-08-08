@@ -1,5 +1,8 @@
 # https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Ruleset/Emby/Emby.list
 
+# > 流媒体ProjectSi服务器
+DOMAIN,emby.si
+
 # > 流媒体猫熊服务器
 DOMAIN,embyclub.media
 DOMAIN,embyclub.com
