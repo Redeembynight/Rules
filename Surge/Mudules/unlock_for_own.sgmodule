@@ -87,8 +87,8 @@ http-response https:\/\/license\.pdfexpert\.com\/api\/.+\/subscription\/(refresh
 #Scanner Pro 解锁会员权限 一次性解锁勿卸载（by公众号墨鱼手记）
 http-response https:\/\/license\.pdfexpert\.com\/api\/.+\/scanner\/subscription\/(refresh$|check$) script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/sp.js, requires-body=true
 
-#彩云天气（20201121）Author: blackmatrix7 
-彩云天气 = type=http-response,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) script-path= https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/CaiYun.js, requires-body=true
+#彩云天气（20201121）Author: blackmatrix7
+彩云天气SVIP = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/CaiYun.js
 
 #sololearn 
 http-response ^https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/sololearn.js, requires-body=true
