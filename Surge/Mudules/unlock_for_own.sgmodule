@@ -6,128 +6,128 @@ hostname = %APPEND% claritywallpaper.com, vni.kwaiying.com, api.ankiapp.com, lic
 [Script]
 # claritywallpaper.com
 #claritywallpaper克拉壁纸
-http-response ^https?+:\/\/claritywallpaper\.com\/clarity\/api\/special\/queryByCatalogAll script-path=  https://raw.githubusercontent.com/787a68/Script/main/Crack/Clarity.js
+http-response ^https?+:\/\/claritywallpaper\.com\/clarity\/api\/special\/queryByCatalogAll requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/787a68/Script/main/Crack/Clarity.js
 
 # vni.kwaiying.com
 #Bigshot 解锁高级特权(by NobyDa)(需登录)
-http-response ^https:\/\/vni\.kwaiying\.com\/api\/v1\/user\/profile script-path=  https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/dapian.js
+http-response ^https:\/\/vni\.kwaiying\.com\/api\/v1\/user\/profile requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/dapian.js
 
 # api.ankiapp.com
 #AnkiApp（by 越南老哥）
-http-response ^https:\/\/api\.ankiapp\.com\/users\/account$ script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/ankiapp.js
+http-response ^https:\/\/api\.ankiapp\.com\/users\/account$ requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/ankiapp.js
 
 # license.enpass.io
 #enpass（by 越南老哥）
-http-response ^https:\/\/license\.enpass\.io/api/.+/subscription/me script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/enpass.js
+http-response ^https:\/\/license\.enpass\.io/api/.+/subscription/me requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/enpass.js
 
 # subscription.grammarly.com
 #grammarly（by 越南大佬）
-http-response ^https:\/\/subscription\.grammarly\.com\/api\/v1\/.* script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/grammarly.js
+http-response ^https:\/\/subscription\.grammarly\.com\/api\/v1\/.* requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/grammarly.js
 
 # api.xiuxiu.meitu.com
 #美图秀秀粉钻 (by-Gökotta)
-http-response https:\/\/api\.xiuxiu\.meitu\.com\/v1\/user\/show\.json script-path=  https://raw.githubusercontent.com/callmeheihei/Black/script/Crack/mtxx.js
+http-response https:\/\/api\.xiuxiu\.meitu\.com\/v1\/user\/show\.json requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/callmeheihei/Black/script/Crack/mtxx.js
 
 # mall.zuoyebang.com, apivip.zybang.com
 # 作业帮 解锁付费音频资源 (by photonmang)
-http-response https://mall.zuoyebang.com/mall/goods/audio/voice/list?audioId=\d+ script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/zyb.js
-http-response https://apivip.zybang.com/vipols/vip/viphomev1?.+ script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/zyb.js
+http-response https://mall.zuoyebang.com/mall/goods/audio/voice/list?audioId=\d+ requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/zyb.js
+http-response https://apivip.zybang.com/vipols/vip/viphomev1?.+ requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/zyb.js
 
 # *.caixin.com
 # 财新周刊 解锁会员文章（by公众号墨鱼手记）
-http-response http://ipadcms.caixin.com/tmp/articles/* script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cxzk.js
+http-response http://ipadcms.caixin.com/tmp/articles/* requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cxzk.js
 
 #XMind （越南大佬）(恢复订阅）
-http-response https?:\/\/.*\.xmind\..*\/_res\/(devices|user_sub_status|appstore/sub) script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/xmind.js
+http-response https?:\/\/.*\.xmind\..*\/_res\/(devices|user_sub_status|appstore/sub) requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/xmind.js
 
 #WPS解锁  超级会员、wps会员、稻壳会员 (By eHpo)（国区！！！）
-http-response ^https://account.wps.*/api/users/ script-path=  https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+http-response ^https://account.wps.*/api/users/ requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 
 #Python Ai解锁会员 (ios黑科技)
-http-response ^http:\/\/ws\.60he\.com\/(book|user).+ script-path=  https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/PythonAI.js
+http-response ^http:\/\/ws\.60he\.com\/(book|user).+ requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/PythonAI.js
 
 #busuu
-http-response ^https:\/\/api\.busuu\.com\/users\/me* script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/busuu.js
+http-response ^https:\/\/api\.busuu\.com\/users\/me* requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/busuu.js
 
 #mondly
-http-response ^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/mondly.js
+http-response ^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/mondly.js
 
 #drops
-http-response ^https:\/\/lambda\.us-east-1\.amazonaws\.com/.*/functions\/prod-4-syncPurchases\/invocations$ script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/drops.js
+http-response ^https:\/\/lambda\.us-east-1\.amazonaws\.com/.*/functions\/prod-4-syncPurchases\/invocations$ requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/drops.js
 
 #Memrise学习外语（不包括英语）
-http-response ^https:\/\/api\.memrise\.com\/.+\/(me\/$|dashboard\/$|leaderboards\/following\/) script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/memrise.js
+http-response ^https:\/\/api\.memrise\.com\/.+\/(me\/$|dashboard\/$|leaderboards\/following\/) requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/memrise.js
 
 #Bright学习英语
-http-response ^https:\/\/engbright\.com\/app-portal\/apple\/receipt$ script-path=302 https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/Bright.rsp
+http-response ^https:\/\/engbright\.com\/app-portal\/apple\/receipt$ requires-body=1,max-size=0,script-path=302 https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/Bright.rsp
 
 #Charger Master-充电助手（20201206）
-http-response https://api.yonekura.cn/3.6.8/uicommon/getuser script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cdzs.js
+http-response https://api.yonekura.cn/3.6.8/uicommon/getuser requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cdzs.js
 
 #闪电下载vip
-http-response ^http\:\/\/app\.flashdown365\.com\/ios\/login script-path=  https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sdxz.js
+http-response ^http\:\/\/app\.flashdown365\.com\/ios\/login requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sdxz.js
 
 #流利说.阅读 (by@火羽&@singee)
-http-response ^https?:\/\/vira\.llsapp\.com\/api\/v2\/readings\/(accessible|limitation) script-path=  https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/llyd.js
+http-response ^https?:\/\/vira\.llsapp\.com\/api\/v2\/readings\/(accessible|limitation) requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/llyd.js
 
 #MeisterTask Premium(20200910)
-http-response https://www.mindmeister.com/api/v2/licenses/meistertask script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/meistertask.js
+http-response https://www.mindmeister.com/api/v2/licenses/meistertask requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/meistertask.js
 
 #一言（20200916）Attention:登录使用
-http-response http://115.28.168.103:8080/yiyan/* script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js
+http-response http://115.28.168.103:8080/yiyan/* requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js
 
 #Fantastical（20200924）
-http-response ^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details) script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/fantastical.js
+http-response ^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details) requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/fantastical.js
 
 #西窗烛（20200924）Attention：登录使用
-http-response https://avoscloud.com/* script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
+http-response https://avoscloud.com/* requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
 
 #Document 一次性解锁勿卸载（by公众号墨鱼手记）
-http-response https:\/\/license\.pdfexpert\.com\/api\/.+\/subscription\/(refresh$|check$) script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/documents.js
+http-response https:\/\/license\.pdfexpert\.com\/api\/.+\/subscription\/(refresh$|check$) requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/documents.js
 #Scanner Pro 解锁会员权限 一次性解锁勿卸载（by公众号墨鱼手记）
-http-response https:\/\/license\.pdfexpert\.com\/api\/.+\/scanner\/subscription\/(refresh$|check$) script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/sp.js
+http-response https:\/\/license\.pdfexpert\.com\/api\/.+\/scanner\/subscription\/(refresh$|check$) requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/sp.js
 
 #彩云天气（20201121）Author: blackmatrix7 
-http-response https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) script-path=  https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/CaiYun.js
+http-response https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/CaiYun.js
 
 #sololearn 
-http-response ^https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/sololearn.js
+http-response ^https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/sololearn.js
 
 # api.revenuecat.com
 #Pillow (By @CheeryTodo)(解锁后注释即可）
-;https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) script-path=  https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pillow.js
+;https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pillow.js
 #noto笔记&Airmail Pro(by Eric)
-http-response https://api.revenuecat.com/v1/subscribers script-path=  https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/revenuecat.js
+http-response https://api.revenuecat.com/v1/subscribers requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/revenuecat.js
 
 #mimo
-http-response ^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/mimo.js
+http-response ^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/mimo.js
 
 #boom
-http-response ^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-path=302 https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/boom.vip.rsp
+http-response ^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url requires-body=1,max-size=0,script-path=302 https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/boom.vip.rsp
 
 #calm
-http-response ^https:\/\/api\.calm\.com\/me$ script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/calm.js
+http-response ^https:\/\/api\.calm\.com\/me$ requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/calm.js
 
 #phothop&PSexpress
-http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/photoshop.js
+http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/photoshop.js
 
 #lightroom
-http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/lightroom.js
+http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/lightroom.js
 
 #draft
-http-response ^https:\/\/backend\.getdrafts\.com\/api\/.*\/verification* script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/draft.js
+http-response ^https:\/\/backend\.getdrafts\.com\/api\/.*\/verification* requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/draft.js
 
 #Musixmatch
-http-response ^https:\/\/apic\.musixmatch\.com\/ws\/.*\/config\.get script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/musixmatch.js
+http-response ^https:\/\/apic\.musixmatch\.com\/ws\/.*\/config\.get requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/musixmatch.js
 
 #Textnow
-http-response ^https:\/\/api\.textnow\.me\/api2.0\/users\/.* script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/textnow.js
+http-response ^https:\/\/api\.textnow\.me\/api2.0\/users\/.* requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/textnow.js
 
 # 迅捷应用6合1 （by LTribe）
-http-response ^https?:\/\/.*\.xunjie.*\.com\/api\/v\d\/* script-path=  https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xunjie.js
+http-response ^https?:\/\/.*\.xunjie.*\.com\/api\/v\d\/* requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xunjie.js
 
 #Productive Unlocks by Cuttlefish 公众号：墨鱼手记
-http-response ^https:\/\/subs\.platforms\.team\/.+\/apple\/verify$ script-path=  https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/productive.js
+http-response ^https:\/\/subs\.platforms\.team\/.+\/apple\/verify$ requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/productive.js
 
 # 小小影视 photonmang (*.xxjjappss.com,*.huaerdadi.com)
-http-response https:\/\/.*\..*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) script-path=  https://raw.githubusercontent.com/photonmang/quantumultX/master/xxys.js
+http-response https:\/\/.*\..*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) requires-body=1,max-size=0,script-path=  https://raw.githubusercontent.com/photonmang/quantumultX/master/xxys.js
