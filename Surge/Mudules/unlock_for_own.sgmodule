@@ -38,8 +38,7 @@ http-response ^http\:\/\/app\.flashdown365\.com\/ios\/login script-path=  https:
 #流利说.阅读 (by@火羽&@singee)
 http-response ^https?:\/\/vira\.llsapp\.com\/api\/v2\/readings\/(accessible|limitation) script-path=  https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/llyd.js, requires-body=true
 
-#MeisterTask Premium(20200910)
-http-response https://www.mindmeister.com/api/v2/licenses/meistertask script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/meistertask.js, requires-body=true
+MeisterTask = type=http-response,pattern=https://www.mindmeister.com/api/v2/licenses/meistertask,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/meistertask.js
 
 #一言（20200916）Attention:登录使用
 http-response http://115.28.168.103:8080/yiyan/* script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js, requires-body=true
