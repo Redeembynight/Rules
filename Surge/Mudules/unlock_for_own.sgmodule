@@ -33,8 +33,7 @@ http-response https:\/\/api\.xiuxiu\.meitu\.com\/v1\/user\/show\.js, requires-bo
 #XMind （越南大佬）(恢复订阅）
 http-response https?:\/\/.*\.xmind\..*\/_res\/(devices|user_sub_status|appstore/sub) script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/xmind.js, requires-body=true
 
-#WPS解锁  超级会员、wps会员、稻壳会员 (By eHpo)（国区！！！）
-http-response ^https://account.wps.*/api/users/ script-path=  https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js, requires-body=true
+Wps（国区）= type=http-response,pattern=^https://account.wps.*/api/users/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 
 #Python Ai解锁会员 (ios黑科技)
 http-response ^http:\/\/ws\.60he\.com\/(book|user).+ script-path=  https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/PythonAI.js, requires-body=true
