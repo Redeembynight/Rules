@@ -30,8 +30,7 @@ Wps（国区）= type=http-response,pattern=^https://account.wps.*/api/users/,re
 #Python Ai解锁会员 (ios黑科技)
 http-response ^http:\/\/ws\.60he\.com\/(book|user).+ script-path=  https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/PythonAI.js, requires-body=true
 
-#busuu
-http-response ^https:\/\/api\.busuu\.com\/users\/me* script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/busuu.js, requires-body=true
+Busuu= type=http-response,pattern=^https:\/\/api\.busuu\.com\/users\/me*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/busuu.js
 
 #mondly
 http-response ^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/mondly.js, requires-body=true
