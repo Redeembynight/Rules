@@ -4,7 +4,7 @@
 
 下载地址 https://apps.apple.com/us/app/learn-33-languages-with-mondly/id987873536
 
-^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/mondly.vip.js
+^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/mondly.vip.js
 
 api.mondlylanguages.com
 */
