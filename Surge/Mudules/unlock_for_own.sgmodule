@@ -1,7 +1,7 @@
 #!name=Unlock_for_own
 #!desc=自用
 [MITM]
-hostname = %APPEND% claritywallpaper.com, vni.kwaiying.com, api.ankiapp.com, license.enpass.io, subscription.grammarly.com, api.xiuxiu.meitu.com, *.caixin.com, *.xmind.*, account.wps.cn, ws.60he.com, api.busuu.com, api.meiease.c*, api.memrise.com, api.meiease.c*, api.yonekura.cn, app.flashdown365.com, vira.llsapp.com, www.mindmeister.com, 115.28.168.103, api.flexibits.com, license.pdfexpert.com, biz.caiyunapp.com, api.sololearn.com, api.revenuecat.com, api.getmimo.com, apimboom2.globaldelight.net, api.calm.com, www.calm.com, lcs-mobile-cops.adobe.io, photos.adobe.io, backend.getdrafts.com, apic.musixmatch.com, api.textnow.me, *.xunjie*.com, *.xxjjappss.com, *.huaerdadi.com
+hostname = %APPEND% claritywallpaper.com, vni.kwaiying.com, api.ankiapp.com, license.enpass.io, subscription.grammarly.com, api.xiuxiu.meitu.com, *.caixin.com, *.xmind.*, account.wps.cn, ws.60he.com, api.busuu.com, api.meiease.c*, api.memrise.com, api.meiease.c*, api.yonekura.cn, app.flashdown365.com, vira.llsapp.com, www.mindmeister.com, 115.28.168.103, api.flexibits.com, license.pdfexpert.com, biz.caiyunapp.com, api.sololearn.com, api.revenuecat.com, api.getmimo.com, api.calm.com, www.calm.com, lcs-mobile-cops.adobe.io, photos.adobe.io, backend.getdrafts.com, apic.musixmatch.com, api.textnow.me, *.xunjie*.com, *.xxjjappss.com, *.huaerdadi.com
 
 [Script]
 
@@ -58,9 +58,6 @@ Sololearn = type=http-response,pattern=^https:\/\/api\.sololearn\.com\/(authenti
 noto笔记&Airmail Pro(by Eric) = type=http-response,pattern=https:\/\/api\.revenuecat\.com,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/revenuecat.js,script-update-interval=-1
 
 Mimo = type=http-response,pattern=^https:\/\/api\.getmimo\.com\/v1\/subscriptions$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/mimo.js
-
-#boom
-http-response ^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-path=302 https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/boom.vip.rsp
 
 Calm = type=http-response,pattern=^https:\/\/api\.calm\.com\/me$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/calm.js
 
