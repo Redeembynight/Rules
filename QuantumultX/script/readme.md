@@ -27,6 +27,8 @@
 
 ###################################################以下可在US商店使用
 
+#Unlock Documents-PdfExpert-Scaner Pro（试用-取消订阅-恢复订阅）
+
 #汉字的故事（20201002）
 
 #claritywallpaper克拉壁纸
@@ -107,10 +109,6 @@
 
 #Fitplan（20201107）
 
-#Document（20201108）
-
-#Scanner Pro 解锁会员权限 一次性解锁勿卸载（by公众号墨鱼手记）
-
 #Quicut(20201112)
 
 #豌豆清单(20201112)
@@ -145,8 +143,6 @@
 
 #busuu
 
-#drops
-
 #sync(通讯录备份）
 
 #Jibjab(funny ecards,videos&gifs)
@@ -162,8 +158,6 @@
 #Musixmatch
 
 #Textnow
-
-#迅捷应用6合1 （by LTribe）
 
 #gyroscope记录健康数据全英文app
 
