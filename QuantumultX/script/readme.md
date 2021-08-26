@@ -139,8 +139,6 @@
 
 #mimo
 
-#boom
-
 #calm
 
 #elevate
@@ -157,8 +155,6 @@
 
 #phothop&PSexpress
 
-#Bright学习英语
-
 #lightroom
 
 #draft
@@ -168,8 +164,6 @@
 #Textnow
 
 #迅捷应用6合1 （by LTribe）
-
-#Productive Unlocks by Cuttlefish 公众号：墨鱼手记
 
 #gyroscope记录健康数据全英文app
 
