@@ -66,8 +66,7 @@ Calm = type=http-response,pattern=^https:\/\/api\.calm\.com\/me$,requires-body=1
 
 Photoshop = type=http-response,pattern=^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/photoshop.js
 
-#lightroom
-http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/lightroom.js, requires-body=true
+Lightroom = type=http-response,pattern=^https:\/\/photos\.adobe\.io\/v2\/accounts*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/lightroom.js
 
 #draft
 http-response ^https:\/\/backend\.getdrafts\.com\/api\/.*\/verification* script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/draft.js, requires-body=true
