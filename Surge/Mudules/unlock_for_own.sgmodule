@@ -23,8 +23,7 @@ http-response https:\/\/api\.xiuxiu\.meitu\.com\/v1\/user\/show\.js, requires-bo
 
 财新周刊 = type=http-response,pattern=http://ipadcms.caixin.com/tmp/articles/* ,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cxzk.js
 
-#XMind （越南大佬）(恢复订阅）
-http-response https?:\/\/.*\.xmind\..*\/_res\/(devices|user_sub_status|appstore/sub) script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/xmind.js, requires-body=true
+Xmind（恢复订阅）= type=http-response,pattern=https?:\/\/.*\.xmind\..*\/_res\/(devices|user_sub_status|appstore/sub),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/xmind.js
 
 Wps（国区）= type=http-response,pattern=^https://account.wps.*/api/users/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 
