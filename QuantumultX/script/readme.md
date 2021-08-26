@@ -49,8 +49,6 @@
 
 #ConceptisSudoku解锁 ( @787a68 )
 
-#作业帮 解锁付费音频资源 (by photonmang)
-
 #TF输入法解锁会员(ios黑科技）
 
 #儿歌点点解锁vip(by公众号：少年歌行pro)
@@ -150,8 +148,6 @@
 #elevate
 
 #busuu
-
-#mondly
 
 #drops
 
