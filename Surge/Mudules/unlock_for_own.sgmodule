@@ -72,8 +72,7 @@ Drafts = type=http-response,pattern=^https:\/\/backend\.getdrafts\.com\/api\/.*\
 
 Musixmatch = type=http-response,pattern=^https:\/\/apic\.musixmatch\.com\/ws\/.*\/config\.get,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/musixmatch.js
 
-#Textnow
-http-response ^https:\/\/api\.textnow\.me\/api2.0\/users\/.* script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/textnow.js, requires-body=true
+Textnow = type=http-response,pattern=^https:\/\/api\.textnow\.me\/api2.0\/users\/.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/textnow.js
 
 # 迅捷应用6合1 （by LTribe）
 http-response ^https?:\/\/.*\.xunjie.*\.com\/api\/v\d\/* script-path=  https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xunjie.js, requires-body=true
