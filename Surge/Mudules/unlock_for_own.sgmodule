@@ -11,9 +11,7 @@ Bigshot（需登录）= type=http-response,pattern=^https:\/\/vni\.kwaiying\.com
 
 Ankiapp = type=http-response,pattern=^https:\/\/api\.ankiapp\.com\/users\/account$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/ankiapp.js
 
-# license.enpass.io
-#enpass（by 越南老哥）
-http-response ^https:\/\/license\.enpass\.io/api/.+/subscription/me script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/enpass.js, requires-body=true
+Enpass = type=http-response,pattern=^https:\/\/license\.enpass\.io/api/.+/subscription/me,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/enpass.js
 
 # subscription.grammarly.com
 #grammarly（by 越南大佬）
