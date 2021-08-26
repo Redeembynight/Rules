@@ -1,7 +1,7 @@
 #!name=Unlock_for_own
 #!desc=自用
 [MITM]
-hostname = %APPEND% claritywallpaper.com, vni.kwaiying.com, api.ankiapp.com, license.enpass.io, subscription.grammarly.com, api.xiuxiu.meitu.com, *.caixin.com, *.xmind.*, account.wps.cn, ws.60he.com, api.busuu.com, api.meiease.c*, api.memrise.com, engbright.com, api.meiease.c*, api.yonekura.cn, app.flashdown365.com, vira.llsapp.com, www.mindmeister.com, 115.28.168.103, api.flexibits.com, avoscloud.com, license.pdfexpert.com, biz.caiyunapp.com, api.sololearn.com, api.revenuecat.com, api.getmimo.com, apimboom2.globaldelight.net, api.calm.com, www.calm.com, lcs-mobile-cops.adobe.io, photos.adobe.io, backend.getdrafts.com, apic.musixmatch.com, api.textnow.me, *.xunjie*.com, subs.platforms.team, *.xxjjappss.com, *.huaerdadi.com
+hostname = %APPEND% claritywallpaper.com, vni.kwaiying.com, api.ankiapp.com, license.enpass.io, subscription.grammarly.com, api.xiuxiu.meitu.com, *.caixin.com, *.xmind.*, account.wps.cn, ws.60he.com, api.busuu.com, api.meiease.c*, api.memrise.com, api.meiease.c*, api.yonekura.cn, app.flashdown365.com, vira.llsapp.com, www.mindmeister.com, 115.28.168.103, api.flexibits.com, avoscloud.com, license.pdfexpert.com, biz.caiyunapp.com, api.sololearn.com, api.revenuecat.com, api.getmimo.com, apimboom2.globaldelight.net, api.calm.com, www.calm.com, lcs-mobile-cops.adobe.io, photos.adobe.io, backend.getdrafts.com, apic.musixmatch.com, api.textnow.me, *.xunjie*.com, subs.platforms.team, *.xxjjappss.com, *.huaerdadi.com
 
 [Script]
 
@@ -33,9 +33,6 @@ http-response ^http:\/\/ws\.60he\.com\/(book|user).+ script-path=  https://raw.g
 Busuu= type=http-response,pattern=^https:\/\/api\.busuu\.com\/users\/me*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/busuu.js
 
 Memrise（无英语）= type=http-response,pattern=^https:\/\/api\.memrise\.com\/.+\/(me\/$|dashboard\/$|leaderboards\/following\/),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/memrise.js
-
-#Bright学习英语
-http-response ^https:\/\/engbright\.com\/app-portal\/apple\/receipt$ script-path=302 https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/Bright.rsp
 
 #Charger Master-充电助手（20201206）
 http-response https://api.yonekura.cn/3.6.8/uicommon/getuser script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cdzs.js, requires-body=true
