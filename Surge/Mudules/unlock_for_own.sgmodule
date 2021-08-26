@@ -1,7 +1,7 @@
 #!name=Unlock_for_own
 #!desc=自用
 [MITM]
-hostname = %APPEND% claritywallpaper.com, vni.kwaiying.com, api.ankiapp.com, license.enpass.io, subscription.grammarly.com, api.xiuxiu.meitu.com, *.caixin.com, *.xmind.*, account.wps.cn, ws.60he.com, api.busuu.com, api.meiease.c*, api.memrise.com, api.meiease.c*, api.yonekura.cn, app.flashdown365.com, vira.llsapp.com, www.mindmeister.com, 115.28.168.103, api.flexibits.com, license.pdfexpert.com, biz.caiyunapp.com, api.sololearn.com, api.revenuecat.com, api.getmimo.com, apimboom2.globaldelight.net, api.calm.com, www.calm.com, lcs-mobile-cops.adobe.io, photos.adobe.io, backend.getdrafts.com, apic.musixmatch.com, api.textnow.me, *.xunjie*.com, subs.platforms.team, *.xxjjappss.com, *.huaerdadi.com
+hostname = %APPEND% claritywallpaper.com, vni.kwaiying.com, api.ankiapp.com, license.enpass.io, subscription.grammarly.com, api.xiuxiu.meitu.com, *.caixin.com, *.xmind.*, account.wps.cn, ws.60he.com, api.busuu.com, api.meiease.c*, api.memrise.com, api.meiease.c*, api.yonekura.cn, app.flashdown365.com, vira.llsapp.com, www.mindmeister.com, 115.28.168.103, api.flexibits.com, license.pdfexpert.com, biz.caiyunapp.com, api.sololearn.com, api.revenuecat.com, api.getmimo.com, apimboom2.globaldelight.net, api.calm.com, www.calm.com, lcs-mobile-cops.adobe.io, photos.adobe.io, backend.getdrafts.com, apic.musixmatch.com, api.textnow.me, *.xunjie*.com, *.xxjjappss.com, *.huaerdadi.com
 
 [Script]
 
@@ -76,9 +76,6 @@ Textnow = type=http-response,pattern=^https:\/\/api\.textnow\.me\/api2.0\/users\
 
 # 迅捷应用6合1 （by LTribe）
 http-response ^https?:\/\/.*\.xunjie.*\.com\/api\/v\d\/* script-path=  https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xunjie.js, requires-body=true
-
-#Productive Unlocks by Cuttlefish 公众号：墨鱼手记
-http-response ^https:\/\/subs\.platforms\.team\/.+\/apple\/verify$ script-path=  https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/productive.js, requires-body=true
 
 # 小小影视 photonmang (*.xxjjappss.com,*.huaerdadi.com)
 http-response https:\/\/.*\..*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) script-path=  https://raw.githubusercontent.com/photonmang/quantumultX/master/xxys.js, requires-body=true
