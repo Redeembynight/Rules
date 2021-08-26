@@ -34,8 +34,7 @@ Charger Master = type=http-response,pattern=https://api.yonekura.cn/3.6.8/uicomm
 
 闪电下载 = type=http-response,pattern=^http\:\/\/app\.flashdown365\.com\/ios\/login,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sdxz.js
 
-#流利说.阅读 (by@火羽&@singee)
-http-response ^https?:\/\/vira\.llsapp\.com\/api\/v2\/readings\/(accessible|limitation) script-path=  https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/llyd.js, requires-body=true
+流利说·阅读 = type=http-response,pattern=^https?:\/\/vira\.llsapp\.com\/api\/v2\/readings\/(accessible|limitation),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/llyd.js
 
 MeisterTask = type=http-response,pattern=https://www.mindmeister.com/api/v2/licenses/meistertask,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/meistertask.js
 
