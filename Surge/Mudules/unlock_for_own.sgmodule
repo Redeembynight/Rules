@@ -8,9 +8,7 @@ hostname = %APPEND% claritywallpaper.com, vni.kwaiying.com, api.ankiapp.com, lic
 #claritywallpaper克拉壁纸
 http-response ^https?+:\/\/claritywallpaper\.com\/clarity\/api\/special\/queryByCatalogAll script-path=  https://raw.githubusercontent.com/787a68/Script/main/Crack/Clarity.js, requires-body=true
 
-# vni.kwaiying.com
-#Bigshot 解锁高级特权(by NobyDa)(需登录)
-http-response ^https:\/\/vni\.kwaiying\.com\/api\/v1\/user\/profile script-path=  https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/dapian.js, requires-body=true
+Bigshot（需登录）= type=http-response,pattern=^https:\/\/vni\.kwaiying\.com\/api\/v1\/user\/profile,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/dapian.js
 
 # api.ankiapp.com
 #AnkiApp（by 越南老哥）
