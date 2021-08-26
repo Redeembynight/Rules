@@ -15,9 +15,7 @@ Enpass = type=http-response,pattern=^https:\/\/license\.enpass\.io/api/.+/subscr
 
 Grammarly = type=http-response,pattern=^https:\/\/subscription\.grammarly\.com\/api\/v1\/.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/grammarly.js
 
-# api.xiuxiu.meitu.com
-#美图秀秀粉钻 (by-Gökotta)
-http-response https:\/\/api\.xiuxiu\.meitu\.com\/v1\/user\/show\.js, requires-body=trueon script-path=  https://raw.githubusercontent.com/callmeheihei/Black/script/Crack/mtxx.js, requires-body=true
+美图秀秀 = type=http-response,pattern=https:\/\/api\.xiuxiu\.meitu\.com\/v1\/user\/show\.js,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/callmeheihei/Black/script/Crack/mtxx.js
 
 财新周刊 = type=http-response,pattern=http://ipadcms.caixin.com/tmp/articles/* ,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cxzk.js
 
