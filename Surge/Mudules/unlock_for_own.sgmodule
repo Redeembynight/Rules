@@ -4,9 +4,8 @@
 hostname = %APPEND% claritywallpaper.com, vni.kwaiying.com, api.ankiapp.com, license.enpass.io, subscription.grammarly.com, api.xiuxiu.meitu.com, *.caixin.com, *.xmind.*, account.wps.cn, ws.60he.com, api.busuu.com, mondly.vip.js, requires-body=true, lambda.us-east-1.amazonaws.com, api.meiease.c*, api.memrise.com, engbright.com, api.meiease.c*, api.yonekura.cn, app.flashdown365.com, vira.llsapp.com, www.mindmeister.com, 115.28.168.103, api.flexibits.com, avoscloud.com, license.pdfexpert.com, biz.caiyunapp.com, api.sololearn.com, api.revenuecat.com, api.getmimo.com, apimboom2.globaldelight.net, api.calm.com, www.calm.com, lcs-mobile-cops.adobe.io, photos.adobe.io, backend.getdrafts.com, apic.musixmatch.com, api.textnow.me, *.xunjie*.com, subs.platforms.team, *.xxjjappss.com, *.huaerdadi.com
 
 [Script]
-# claritywallpaper.com
-#claritywallpaper克拉壁纸
-http-response ^https?+:\/\/claritywallpaper\.com\/clarity\/api\/special\/queryByCatalogAll script-path=  https://raw.githubusercontent.com/787a68/Script/main/Crack/Clarity.js, requires-body=true
+
+克拉壁纸 = type=http-response,pattern=^https?+:\/\/claritywallpaper\.com\/clarity\/api\/special\/queryByCatalogAll,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/787a68/Script/main/Crack/Clarity.js
 
 Bigshot（需登录）= type=http-response,pattern=^https:\/\/vni\.kwaiying\.com\/api\/v1\/user\/profile,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/dapian.js
 
