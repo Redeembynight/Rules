@@ -70,8 +70,7 @@ Lightroom = type=http-response,pattern=^https:\/\/photos\.adobe\.io\/v2\/account
 
 Drafts = type=http-response,pattern=^https:\/\/backend\.getdrafts\.com\/api\/.*\/verification*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/draft.js
 
-#Musixmatch
-http-response ^https:\/\/apic\.musixmatch\.com\/ws\/.*\/config\.get script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/musixmatch.js, requires-body=true
+Musixmatch = type=http-response,pattern=^https:\/\/apic\.musixmatch\.com\/ws\/.*\/config\.get,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/musixmatch.js
 
 #Textnow
 http-response ^https:\/\/api\.textnow\.me\/api2.0\/users\/.* script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/textnow.js, requires-body=true
