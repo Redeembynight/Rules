@@ -36,8 +36,7 @@ Mondly = type=http-response,pattern=^https:\/\/api\.mondlylanguages\.com\/v1\/io
 
 Drops = type=http-response,pattern=^https:\/\/lambda\.us-east-1\.amazonaws\.com/.*/functions\/prod-4-syncPurchases\/invocations$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/drops.js
 
-#Memrise学习外语（不包括英语）
-http-response ^https:\/\/api\.memrise\.com\/.+\/(me\/$|dashboard\/$|leaderboards\/following\/) script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/memrise.js, requires-body=true
+Memrise（无英语）= type=http-response,pattern=^https:\/\/api\.memrise\.com\/.+\/(me\/$|dashboard\/$|leaderboards\/following\/),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/memrise.js
 
 #Bright学习英语
 http-response ^https:\/\/engbright\.com\/app-portal\/apple\/receipt$ script-path=302 https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/Bright.rsp
