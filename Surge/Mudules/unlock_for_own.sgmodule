@@ -1,7 +1,7 @@
 #!name=Unlock_for_own
 #!desc=自用
 [MITM]
-hostname = %APPEND% claritywallpaper.com, vni.kwaiying.com, api.ankiapp.com, license.enpass.io, subscription.grammarly.com, api.xiuxiu.meitu.com, *.caixin.com, *.xmind.*, account.wps.cn, ws.60he.com, api.busuu.com, api.meiease.c*, api.memrise.com, api.meiease.c*, api.yonekura.cn, app.flashdown365.com, vira.llsapp.com, www.mindmeister.com, 115.28.168.103, api.flexibits.com, license.pdfexpert.com, biz.caiyunapp.com, api.sololearn.com, api.revenuecat.com, api.getmimo.com, api.calm.com, www.calm.com, lcs-mobile-cops.adobe.io, photos.adobe.io, backend.getdrafts.com, apic.musixmatch.com, api.textnow.me, *.xunjie*.com, *.xxjjappss.com, *.huaerdadi.com
+hostname = %APPEND% claritywallpaper.com, vni.kwaiying.com, api.ankiapp.com, license.enpass.io, subscription.grammarly.com, api.xiuxiu.meitu.com, *.caixin.com, *.xmind.*, account.wps.cn, ws.60he.com, api.busuu.com, api.meiease.c*, api.memrise.com, api.meiease.c*, api.yonekura.cn, app.flashdown365.com, vira.llsapp.com, www.mindmeister.com, 115.28.168.103, api.flexibits.com, biz.caiyunapp.com, api.sololearn.com, api.revenuecat.com, api.getmimo.com, api.calm.com, www.calm.com, lcs-mobile-cops.adobe.io, photos.adobe.io, backend.getdrafts.com, apic.musixmatch.com, api.textnow.me, *.xunjie*.com, *.xxjjappss.com, *.huaerdadi.com
 
 [Script]
 
@@ -42,11 +42,6 @@ MeisterTask = type=http-response,pattern=https://www.mindmeister.com/api/v2/lice
 http-response http://115.28.168.103:8080/yiyan/* script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js, requires-body=true
 
 Fantastical = type=http-response,pattern=^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/fantastical.js
-
-#Document 一次性解锁勿卸载（by公众号墨鱼手记）
-http-response https:\/\/license\.pdfexpert\.com\/api\/.+\/subscription\/(refresh$|check$) script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/documents.js, requires-body=true
-#Scanner Pro 解锁会员权限 一次性解锁勿卸载（by公众号墨鱼手记）
-http-response https:\/\/license\.pdfexpert\.com\/api\/.+\/scanner\/subscription\/(refresh$|check$) script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/sp.js, requires-body=true
 
 彩云天气SVIP = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/CaiYun.js
 
