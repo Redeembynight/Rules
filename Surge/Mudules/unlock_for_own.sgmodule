@@ -57,8 +57,7 @@ Sololearn = type=http-response,pattern=^https:\/\/api\.sololearn\.com\/(authenti
 ;https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) script-path=  https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pillow.js, requires-body=true
 noto笔记&Airmail Pro(by Eric) = type=http-response,pattern=https:\/\/api\.revenuecat\.com,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/revenuecat.js,script-update-interval=-1
 
-#mimo
-http-response ^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/mimo.js, requires-body=true
+Mimo = type=http-response,pattern=^https:\/\/api\.getmimo\.com\/v1\/subscriptions$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/mimo.js
 
 #boom
 http-response ^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-path=302 https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/boom.vip.rsp
