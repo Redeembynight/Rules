@@ -32,8 +32,7 @@ http-response ^http:\/\/ws\.60he\.com\/(book|user).+ script-path=  https://raw.g
 
 Busuu= type=http-response,pattern=^https:\/\/api\.busuu\.com\/users\/me*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/busuu.js
 
-#mondly
-http-response ^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/mondly.js, requires-body=true
+Mondly = type=http-response,pattern=^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/mondly.js
 
 #drops
 http-response ^https:\/\/lambda\.us-east-1\.amazonaws\.com/.*/functions\/prod-4-syncPurchases\/invocations$ script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/drops.js, requires-body=true
