@@ -30,8 +30,7 @@ Busuu= type=http-response,pattern=^https:\/\/api\.busuu\.com\/users\/me*,require
 
 Memrise（无英语）= type=http-response,pattern=^https:\/\/api\.memrise\.com\/.+\/(me\/$|dashboard\/$|leaderboards\/following\/),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/memrise.js
 
-#Charger Master-充电助手（20201206）
-http-response https://api.yonekura.cn/3.6.8/uicommon/getuser script-path=  https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cdzs.js, requires-body=true
+Charger Master = type=http-response,pattern=https://api.yonekura.cn/3.6.8/uicommon/getuser,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cdzs.js
 
 #闪电下载vip
 http-response ^http\:\/\/app\.flashdown365\.com\/ios\/login script-path=  https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sdxz.js, requires-body=true
