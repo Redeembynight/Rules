@@ -62,8 +62,7 @@ Mimo = type=http-response,pattern=^https:\/\/api\.getmimo\.com\/v1\/subscription
 #boom
 http-response ^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-path=302 https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/boom.vip.rsp
 
-#calm
-http-response ^https:\/\/api\.calm\.com\/me$ script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/calm.js, requires-body=true
+Calm = type=http-response,pattern=^https:\/\/api\.calm\.com\/me$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/calm.js
 
 #phothop&PSexpress
 http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/photoshop.js, requires-body=true
