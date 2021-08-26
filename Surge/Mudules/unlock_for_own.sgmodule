@@ -64,8 +64,7 @@ http-response ^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ u
 
 Calm = type=http-response,pattern=^https:\/\/api\.calm\.com\/me$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/calm.js
 
-#phothop&PSexpress
-http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/photoshop.js, requires-body=true
+Photoshop = type=http-response,pattern=^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/photoshop.js
 
 #lightroom
 http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* script-path=  https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/lightroom.js, requires-body=true
