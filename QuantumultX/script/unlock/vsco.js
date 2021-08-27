@@ -4,7 +4,7 @@
 下载地址 https://apps.apple.com/us/app/vsco-photo-video-editor/id588013838
 
 QX:
-^https:\/\/api\.revenuecat\.com\/v\d\/subscribers\/\d+$ url script-response-body vsoc.js
+^https:\/\/api\.revenuecat\.com\/v\d\/subscribers\/\d+$ url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/vsco.js
 
 api.revenuecat.com
 
