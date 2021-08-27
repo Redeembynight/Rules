@@ -5,6 +5,8 @@ hostname = %APPEND% license.pdfexpert.com, claritywallpaper.com, vni.kwaiying.co
 
 [Script]
 
+小习惯 = type=http-response,pattern=https://xianbeikeji.com/daily/app/user/query,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/mzjz.js
+
 斑马海报 = type=http-response,pattern=https://zebra.maka.im/api/user/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bmhb.js
 
 Varlens = type=http-response,pattern=^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/Varlens.js
