@@ -1,6 +1,6 @@
 # 您可以在使用后手动将本模块禁用，以免产生不必要的MITM
 
-hostname = account.wps.cn, xrckeji.com, www.helloshiyu.com, cm.szsszykj.com, api_2496.kuwo.cn, api.interpreter.caiyunai.com, note.youdao.com, panel.getdailyart.com, api2.mubu.com, license.pdfexpert.com, avoscloud.com, claritywallpaper.com, bmall.camera360.com, vni.kwaiying.com, api-production.endel.io, api.ankiapp.com, license.enpass.io, subscription.grammarly.com, api.xiuxiu.meitu.com, web.vizmato.com, api.woaoo.net, mobile.conceptispuzzles.com, api.chuangqi.store, gateway.ergedd.com, diary.7english.cn, vstou.faxingwu.com, purchases.ws.pho.to, pay.wecut.com, *.xmind.*, *.caixin.com, mid.zineapi.com, api.yikaobang.com.cn, ws.60he.com, api.yonekura.cn, irecgo.softin-tech.com, app.flashdown365.com, console.qker.com, wx.520gyh.com, book.haitunwallet.com, vira.llsapp.com, billing.peakcloud.org, zebra.maka.im, xianbeikeji.com, www.mindmeister.com, api.591master.com, 115.28.168.103, api.flexibits.com, getway.radio.cn, api.dushu.io, r.51wnl-cq.com, api.shayujizhang.com, outcut.szsszykj.com, www.40sishi.com, biz.caiyunapp.com, planner5d.com, www.api.monkeyuni.net, api.overhq.com, api.pushover.net, api-kinemaster-assetstore.*, api.sololearn.com, api.lingokids.com, api.revenuecat.com, api.getmimo.com, api.calm.com, www.calm.com, accounts.elevateapp.net, api.busuu.com, api.sync.me, origin-prod-phoenix.jibjab.com, api.meiease.c*, api.memrise.com, lcs-mobile-cops.adobe.io, photos.adobe.io, backend.getdrafts.com, apic.musixmatch.com, api.textnow.me, api.gyrosco.pe, vsco.co, getuserinfo-globalapi.zymk.cn, api.picsart.c*, api.meiease.c*, buy.itunes.apple.com, *.xxjjappss.com, *.huaerdadi.com, *.xiaoxiaoapps.com, *.xiaoxiaoimg.com, ap*.intsig.net, p.du.163.com
+hostname = account.wps.cn, xrckeji.com, www.helloshiyu.com, cm.szsszykj.com, api_2496.kuwo.cn, api.interpreter.caiyunai.com, note.youdao.com, panel.getdailyart.com, api2.mubu.com, license.pdfexpert.com, avoscloud.com, claritywallpaper.com, bmall.camera360.com, vni.kwaiying.com, api-production.endel.io, api.ankiapp.com, license.enpass.io, subscription.grammarly.com, api.xiuxiu.meitu.com, web.vizmato.com, api.woaoo.net, mobile.conceptispuzzles.com, api.chuangqi.store, gateway.ergedd.com, diary.7english.cn, vstou.faxingwu.com, purchases.ws.pho.to, pay.wecut.com, *.xmind.*, *.caixin.com, mid.zineapi.com, api.yikaobang.com.cn, ws.60he.com, api.yonekura.cn, irecgo.softin-tech.com, app.flashdown365.com, console.qker.com, wx.520gyh.com, book.haitunwallet.com, vira.llsapp.com, billing.peakcloud.org, zebra.maka.im, xianbeikeji.com, www.mindmeister.com, api.591master.com, 115.28.168.103, api.flexibits.com, getway.radio.cn, api.dushu.io, r.51wnl-cq.com, api.shayujizhang.com, outcut.szsszykj.com, www.40sishi.com, biz.caiyunapp.com, planner5d.com, www.api.monkeyuni.net, api.overhq.com, api.pushover.net, api-kinemaster-assetstore.*, api.sololearn.com, api.lingokids.com, api.revenuecat.com, api.getmimo.com, api.calm.com, www.calm.com, accounts.elevateapp.net, api.busuu.com, api.sync.me, origin-prod-phoenix.jibjab.com, api.meiease.c*, api.memrise.com, lcs-mobile-cops.adobe.io, photos.adobe.io, backend.getdrafts.com, apic.musixmatch.com, api.textnow.me, api.gyrosco.pe, getuserinfo-globalapi.zymk.cn, api.picsart.c*, api.meiease.c*, buy.itunes.apple.com, *.xxjjappss.com, *.huaerdadi.com, *.xiaoxiaoapps.com, *.xiaoxiaoimg.com, ap*.intsig.net, p.du.163.com
 
 # account.wps.cn
 # WPS解锁  超级会员、wps会员、稻壳会员 (By eHpo)（国区！！！）
@@ -214,6 +214,8 @@ https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response
 ^https:\/\/api\.lingokids\.com\/v1\/renovate_session$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/lingokids.js
 
 # api.revenuecat.com
+#vsco
+;^https:\/\/api\.revenuecat\.com\/v\d\/subscribers\/\d+$ url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/vsco.js
 #Pillow (By @CheeryTodo)(解锁后注释即可）
 ;https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pillow.js
 #noto笔记&Airmail Pro(by Eric)
@@ -261,9 +263,6 @@ https://api.revenuecat.com/v1/subscribers url script-response-body https://raw.g
 
 #gyroscope记录健康数据全英文app
 ^https:\/\/api\.gyrosco\.pe\/v1\/account\/$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/gyroscope.js
-
-#VSCO
-^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 
 #知音漫客
 ^https://getuserinfo-globalapi.zymk.cn/app_api/v5/(getuserinfo|coin_account|getuserinfo_ticket|getcomicinfo)/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js
