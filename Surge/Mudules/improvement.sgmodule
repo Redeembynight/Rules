@@ -28,9 +28,8 @@
 
 知乎直接看 = type=http-response,pattern=https://(www\.zhihu\.com/question|zhuanlan\.zhihu\.com/p)/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/zhihu.js
 
-csdn.res.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/betterweb/csdn.res.js,pattern=^https:\/\/blog\.csdn\.net\/,type=http-response
-
-csdn.req.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/betterweb/csdn.req.js,pattern=^https:\/\/wvhzpj\.openinstall\.io\/ulink,type=http-response
+CSDN直接看 = type=http-response,pattern=^https:\/\/blog\.csdn\.net\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/betterweb/csdn.res.js
+CSDN直接看 = type=http-response,pattern=^https:\/\/wvhzpj\.openinstall\.io\/ulink,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/betterweb/csdn.req.js
 
 支付宝淘票票小程序显示豆瓣评分 = type=http-response,pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopshowapi\.getextendshowbyid,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Rewrites/TaoPiaoPiao/taopiaopiao.js
 
