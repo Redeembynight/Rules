@@ -115,8 +115,6 @@
 
 #all apps monkey
 
-#dayone
-
 #over
 
 #pushover
