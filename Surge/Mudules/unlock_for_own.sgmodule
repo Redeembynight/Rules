@@ -65,6 +65,7 @@ Fantastical = type=http-response,pattern=^https:\/\/api\.flexibits\.com\/(v1\/au
 
 Sololearn = type=http-response,pattern=^https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/sololearn.js
 
+Vsco = type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/v\d\/subscribers\/\d+$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/vsco.js
 Pillow = type=http-response,pattern=https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pillow.js
 noto笔记&Airmail Pro(by Eric) = type=http-response,pattern=https:\/\/api\.revenuecat\.com,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/revenuecat.js,script-update-interval=-1
 
