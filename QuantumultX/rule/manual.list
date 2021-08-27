@@ -1,0 +1,15 @@
+# 手动添加
+
+host, hm.baidu.com, direct
+host-suffix, jpush.io, direct
+host-suffix, jpush.cn, direct
+host, zebra.maka.im, direct
+host-suffix, p.qlogo.cn, direct
+host, ivapp.cn, 黑白名单
+host-keyword, emby, Emby
+host, amdc.alipay.com, direct
+host, fund.10jqka.com.cn, direct
+host, e.weather.com.cn, direct
+host, mtalk.google.com, Google
+host-suffix, www.lanzoux.com, direct
+host-suffix, msdk.qq.com, direct
