@@ -215,9 +215,9 @@ https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response
 
 # api.revenuecat.com
 #vsco
-;^https:\/\/api\.revenuecat\.com\/v\d\/subscribers\/\d+$ url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/vsco.js
-#Pillow (By @CheeryTodo)(解锁后注释即可）
-;https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pillow.js
+^https:\/\/api\.revenuecat\.com\/v\d\/subscribers\/\d+$ url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/vsco.js
+#Pillow (By @CheeryTodo)
+https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pillow.js
 #noto笔记&Airmail Pro(by Eric)
 https://api.revenuecat.com/v1/subscribers url script-response-body https://raw.githubusercontent.com/Redeembynight/own/main/QuantumultX/script/unlock/revenuecat.js
 
