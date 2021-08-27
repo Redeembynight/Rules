@@ -1,16 +1,13 @@
 /*
 #VSCO unlock vip
-NobyDa
 
 下载地址 https://apps.apple.com/us/app/vsco-photo-video-editor/id588013838
 
 QX:
-^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+^https:\/\/api\.revenuecat\.com\/v\d\/subscribers\/\d+$ url script-response-body vsoc.js
 
-Surge4：
-http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+api.revenuecat.com
 
-Surge & QX MITM = vsco.co
 */
 
 var body = $response.body;
