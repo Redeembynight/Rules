@@ -183,9 +183,6 @@ http://115.28.168.103:8080/yiyan/* url script-response-body https://raw.githubus
 #云听（by公众号墨鱼手记）
 http://getway.radio.cn/app* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yt.js
 
-#Fitplan（by公众号墨鱼手记）
-https://api2.fitplanapp.com/fitplan-server/v2/user/profile url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/fitplan.js
-
 #Quicut（by公众号墨鱼手记）
 http://outcut.szsszykj.com/api/OverseasPay/GetVip url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/qc.js
 
