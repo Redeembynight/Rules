@@ -2,7 +2,7 @@
 #!desc=优化app、手机网页使用体验
 
 [Mitm]
- hostname = guide-acs.m.taobao.com, ios-*.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weixin110.qq.com, mp.weixin.qq.com, 
+ hostname =  %APPEND% guide-acs.m.taobao.com, ios-*.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weixin110.qq.com, mp.weixin.qq.com, 
 
 [Script]
 
