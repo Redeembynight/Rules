@@ -1,0 +1,63 @@
+#!name=微信小程序
+#!desc=去除广告直接查看隐藏内容或弹窗显示内容
+
+[Mitm]
+ hostname = %APPEND% jabi.coding.net, api.bspapp.com, 3dd0be8a-54fe-43ff-a0e7-f670c4f20432.bspapp.com, *.tslt.xyz, g.syshhc.top, c.jxjt888.top, www.laoguikeji.cn, qj.bpojie.com, b.tslt.xyz, m.xgjyouhui.com, www.freeheikeji.cn, xcx.xianbaow.com, *.smkj33.top, *.ddly666.top, hkj178.com, a.jxjt888.top, lysl2020.com, www.i3zh.com, iosoi.cn, jabi.coding.net, jt.jxjt888.top, gjsx.vip, d.syshhc.top, gz.gongzijx.com, tvapp.guilaile.cn, www.benbenfx.xyz, 
+
+[URL Rewrite]
+
+# > 辅助去除页面嵌入式式卡片广告（20201214）
+https://hkj178.com/wp-json/mp/v2/advert/wechat -reject
+
+[Script]
+
+予图阁 = type=http-response,pattern=https://3dd0be8a-54fe-43ff-a0e7-f670c4f20432.bspapp.com/.*get_wallpaper_detail,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ytg.js
+
+科技窝 = type=http-response,pattern=https://www.benbenfx.xyz/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+森茂小苑 = type=http-response,pattern=https://[a-z]+.smkj33.top/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+电视盒子君 = type=http-response,pattern=https://tvapp.guilaile.cn/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+公子黑科技 = type=http-response,pattern=https://gz.gongzijx.com/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+世颜说 = type=http-response,pattern=https://d.syshhc.top/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+搞机师兄 = type=http-response,pattern=https://gjsx.vip/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+火箭软件库 = type=http-response,pattern=https://jt.jxjt888.top/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+天书乱谈 = type=http-response,pattern=https://[a-z]+.tslt.xyz/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+老胡群英会 = type=http-response,pattern=https://g.syshhc.top/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+天泽百宝箱 = type=http-response,pattern=https://c.jxjt888.top/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+老鬼黑科技 = type=http-response,pattern=https://www.laoguikeji.cn/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+黑科技软件源 = type=http-response,pattern=https://qj.bpojie.com/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+天书X乱谈 = type=http-response,pattern=https://b.tslt.xyz/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+图层黑科技 = type=http-response,pattern=https://m.xgjyouhui.com/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+free 黑科技 = type=http-response,pattern=https://www.freeheikeji.cn/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+小纸箱助手 = type=http-response,pattern=https://xcx.xianbaow.com/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+扎比科技资源箱 = type=http-response,pattern=https://jabi.coding.net/p/xcx/d/xcx/git/raw/master/jabikj.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/jabi.js
+
+AppleAndroid = type=http-response,pattern=https://iosoi.cn/wp-json/wp/v2/posts/\d+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+辅助去除页面嵌入式式卡片广告 = type=http-response,pattern=https://iosoi.cn/wp-content/plugins,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+森茂雅苑 = type=http-response,pattern=https://d.smkj33.top/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+酸鸡汤,老爷花苑,御花园 = type=http-response,pattern=https://[a-z]+.ddly666.top/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+黑科技软件 = type=http-response,pattern=^https:\/\/hkj178.com/wp-json/mp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+天泽后花园 = type=http-response,pattern=^https:\/\/a.jxjt888.top/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+小野分享 = type=http-response,pattern=^https:\/\/lysl2020.com/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+
+搜罗好货 = type=http-response,pattern=^https:\/\/www.i3zh.com/wp-json/wp/v2/posts,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
