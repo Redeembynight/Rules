@@ -19,7 +19,9 @@
 ^https:\/\/www\.zhihu\.com\/ header-replace User-Agent "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 Quark/604.1 T7/10.7 SearchCraft/2.7.7 (Baidu; P1 9.0.0)"
 
 #百度防跳转
-^https?:\/\/.*\.baidu\.com header-replace User-Agent "Mozilla/5.0 (Linux; Android 9.0; iPhone; U; CPU iPhone OS 9_9_9 like Mac OS X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.89 Mobile Safari/537.36 T7/11.23 SP-engine/2.19.0 baiduboxapp (Baidu; P1 9.0)"
+#^https?:\/\/.*\.baidu\.com header-replace User-Agent "Mozilla/5.0 (Linux; Android 9.0; iPhone; U; CPU iPhone OS 9_9_9 like Mac OS X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.89 Mobile Safari/537.36 T7/11.23 SP-engine/2.19.0 baiduboxapp (Baidu; P1 9.0)"
+#无法二次搜索
+^https?:\/\/.*\.baidu\.com header-replace User-Agent "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 Quark/604.1 T7/10.7 SearchCraft/2.7.7 (Baidu; P1 9.0.0)"
 
 #CSDN
 ^https:\/\/blog\.csdn\.net\/ header-replace User-Agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36$2"
