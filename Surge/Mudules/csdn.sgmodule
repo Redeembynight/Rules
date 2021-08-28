@@ -2,7 +2,7 @@
 #!desc=本地添加有效，远程无效
 
 [Mitm]
- hostname = %APPEND% blog.csdn.net
+ hostname = %APPEND% blog.csdn.net, *.openinstall.io
 
 [Header Rewrite]
 
