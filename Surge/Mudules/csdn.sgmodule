@@ -1,8 +1,8 @@
 #!name=CSDN网页优化
-#!desc=防跳转
+#!desc=本地添加有效，远程无效
 
 [Mitm]
- hostname = %INSERT% blog.csdn.net
+ hostname = %APPEND% blog.csdn.net
 
 [Header Rewrite]
 
