@@ -2,7 +2,7 @@
 #!desc=防跳转
 
 [Mitm]
- hostname = %APPEND% blog.csdn.net
+ hostname = %INSERT% blog.csdn.net
 
 [Header Rewrite]
 
