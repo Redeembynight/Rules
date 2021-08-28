@@ -24,6 +24,9 @@ https://zhuanlan\.zhihu\.com/api/articles/\d+/recommendation - reject
 
 [Header Rewrite]
 
+#简书防跳转
+^https:\/\/www\.jianshu\.com\/p header-replace User-Agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36$2"
+
 #什么值得买防跳转
 ^https:\/\/post\.smzdm\.com\/ header-replace User-Agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36$2"
 
@@ -34,6 +37,8 @@ https://zhuanlan\.zhihu\.com/api/articles/\d+/recommendation - reject
 ^https?:\/\/.*\.baidu\.com header-replace User-Agent "Mozilla/5.0 (Linux; Android 9.0; iPhone; U; CPU iPhone OS 9_9_9 like Mac OS X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.89 Mobile Safari/537.36 T7/11.23 SP-engine/2.19.0 baiduboxapp (Baidu; P1 9.0)"
 
 [Script]
+
+简书直接看 = type=http-response,pattern=^https:\/\/www\.jianshu\.com\/p,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/betterweb/jianshu.js
 
 什么值得买直接看 = type=http-response,pattern=^https:\/\/post\.smzdm\.com\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/betterweb/smzdm.res.js
 
