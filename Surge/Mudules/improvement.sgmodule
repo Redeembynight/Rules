@@ -2,7 +2,7 @@
 #!desc=优化app、手机网页使用体验
 
 [Mitm]
- hostname = %APPEND% shopmember.m.jd.com, oia.zhihu.com, link.zhihu.com, www.zhihu.com, *.baidu.com, zhuanlan.zhihu.com, blog.csdn.net, *.openinstall.io, guide-acs.m.taobao.com, ios-*.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weixin110.qq.com, mp.weixin.qq.com, testflight.apple.com
+ hostname = %APPEND% shopmember.m.jd.com, oia.zhihu.com, link.zhihu.com, www.zhihu.com, *.baidu.com, zhuanlan.zhihu.com, blog.csdn.net, guide-acs.m.taobao.com, ios-*.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weixin110.qq.com, mp.weixin.qq.com, testflight.apple.com
 
 [URL Rewrite]
 
@@ -29,7 +29,6 @@
 知乎直接看 = type=http-response,pattern=https://(www\.zhihu\.com/question|zhuanlan\.zhihu\.com/p)/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/zhihu.js
 
 CSDN直接看 = type=http-response,pattern=^https:\/\/blog\.csdn\.net\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/betterweb/csdn.res.js
-CSDN直接看 = type=http-response,pattern=^https:\/\/wvhzpj\.openinstall\.io\/ulink,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/betterweb/csdn.req.js
 
 支付宝淘票票小程序显示豆瓣评分 = type=http-response,pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopshowapi\.getextendshowbyid,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Rewrites/TaoPiaoPiao/taopiaopiao.js
 
