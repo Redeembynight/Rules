@@ -2,7 +2,7 @@
 #!desc=优化app、手机网页使用体验
 
 [Mitm]
- hostname = %APPEND% shopmember.m.jd.com, post.smzdm.com, post.m.smzdm.com, www.zhihu.com, zhuanlan.zhihu.com, link.zhihu.com, oia.zhihu.com, blog.csdn.net, wwww.jianshu.com, *.baidu.com, guide-acs.m.taobao.com, ios-*.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weixin110.qq.com, mp.weixin.qq.com, testflight.apple.com
+ hostname = %APPEND% shopmember.m.jd.com, post.smzdm.com, post.m.smzdm.com, www.zhihu.com, zhuanlan.zhihu.com, link.zhihu.com, oia.zhihu.com, wwww.jianshu.com, *.baidu.com, guide-acs.m.taobao.com, ios-*.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weixin110.qq.com, mp.weixin.qq.com, testflight.apple.com
 
 [URL Rewrite]
 
@@ -23,9 +23,6 @@ https://zhuanlan\.zhihu\.com/api/articles/\d+/recommendation - reject
 ^https?://oia\.zhihu\.com https://zhuanlan.zhihu.com 302
 
 [Header Rewrite]
-
-#CSDN防跳转
-^https:\/\/blog\.csdn\.net\/ header-replace User-Agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36$2"
 
 #简书防跳转
 ^https:\/\/www\.jianshu\.com\/p header-replace User-Agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36$2"
