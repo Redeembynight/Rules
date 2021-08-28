@@ -1,0 +1,10 @@
+#!name=CSDN网页优化
+#!desc=防跳转
+
+[Mitm]
+ hostname = %APPEND% blog.csdn.net
+
+[Header Rewrite]
+
+#CSDN防跳转
+^https:\/\/blog\.csdn\.net\/ header-replace User-Agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36$2"
