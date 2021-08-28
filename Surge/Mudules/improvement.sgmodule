@@ -2,7 +2,7 @@
 #!desc=优化app、手机网页使用体验
 
 [Mitm]
- hostname = %APPEND% shopmember.m.jd.com, oia.zhihu.com, link.zhihu.com, www.zhihu.com, *.baidu.com, zhuanlan.zhihu.com, blog.csdn.net, guide-acs.m.taobao.com, ios-*.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weixin110.qq.com, mp.weixin.qq.com, testflight.apple.com
+ hostname = %APPEND% shopmember.m.jd.com, oia.zhihu.com, link.zhihu.com, www.zhihu.com, *.baidu.com, zhuanlan.zhihu.com, guide-acs.m.taobao.com, ios-*.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weixin110.qq.com, mp.weixin.qq.com, testflight.apple.com
 
 [URL Rewrite]
 
@@ -19,18 +19,11 @@
 ^https:\/\/www\.zhihu\.com\/ header-replace User-Agent "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 Quark/604.1 T7/10.7 SearchCraft/2.7.7 (Baidu; P1 9.0.0)"
 
 #百度防跳转
-#^https?:\/\/.*\.baidu\.com header-replace User-Agent "Mozilla/5.0 (Linux; Android 9.0; iPhone; U; CPU iPhone OS 9_9_9 like Mac OS X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.89 Mobile Safari/537.36 T7/11.23 SP-engine/2.19.0 baiduboxapp (Baidu; P1 9.0)"
-#无法二次搜索
-^https?:\/\/.*\.baidu\.com header-replace User-Agent "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 Quark/604.1 T7/10.7 SearchCraft/2.7.7 (Baidu; P1 9.0.0)"
-
-#CSDN
-^https:\/\/blog\.csdn\.net\/ header-replace User-Agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36$2"
+^https?:\/\/.*\.baidu\.com header-replace User-Agent "Mozilla/5.0 (Linux; Android 9.0; iPhone; U; CPU iPhone OS 9_9_9 like Mac OS X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.89 Mobile Safari/537.36 T7/11.23 SP-engine/2.19.0 baiduboxapp (Baidu; P1 9.0)"
 
 [Script]
 
 知乎直接看 = type=http-response,pattern=https://(www\.zhihu\.com/question|zhuanlan\.zhihu\.com/p)/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/zhihu.js
-
-CSDN直接看 = type=http-response,pattern=^https:\/\/blog\.csdn\.net\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/betterweb/csdn.res.js
 
 支付宝淘票票小程序显示豆瓣评分 = type=http-response,pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopshowapi\.getextendshowbyid,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Rewrites/TaoPiaoPiao/taopiaopiao.js
 
