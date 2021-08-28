@@ -8,3 +8,8 @@
 
 #CSDN防跳转
 ^https:\/\/blog\.csdn\.net\/ header-replace User-Agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36$2"
+
+[Script]
+
+CSDN直接看 = type=http-response,pattern=^https:\/\/blog\.csdn\.net\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/betterweb/csdn.res.js,script-update-interval=0
+CSDN直接看 = type=http-response,pattern=^https:\/\/wvhzpj\.openinstall\.io\/ulink,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/betterweb/csdn.req.js,script-update-interval=0
