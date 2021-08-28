@@ -1,0 +1,8 @@
+#!name=iTunes万能脚本
+#!desc=试用订阅——取消订阅——恢复订阅
+
+[Mitm]
+ hostname = %APPEND% buy.itunes.apple.com
+
+[Script]
+万能脚本 = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/verify_receipt.js
