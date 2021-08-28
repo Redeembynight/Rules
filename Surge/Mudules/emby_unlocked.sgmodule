@@ -1,0 +1,8 @@
+#!name=embyPremiere
+#!desc=embyPremiereUnlock
+
+[Script]
+embyPremiere.js = type=http-response,pattern=^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice,requires-body=1,max-size=0,script-path=https://subweb.oss-cn-hongkong.aliyuncs.com/Script/embyPremiere.js
+
+[MITM]
+hostname = %APPEND% mb3admin.com
